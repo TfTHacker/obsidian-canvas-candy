@@ -1,0 +1,7 @@
+{
+  "pinned": [
+    "theme:switch",
+    "theme:use-light",
+    "theme:use-dark"
+  ]
+}

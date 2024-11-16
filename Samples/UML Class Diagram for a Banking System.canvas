@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"c01a47291ab625b5","type":"text","text":"---\ncssclasses: cc-border-squared\n---\n\n> [!cc-header] Customer\n\n+Id: int\n+Name: string\n+Address: string \n+PhoneNo: int\n+AcctNo: int\n\n> [!cc-footer] <span></span>\n+Generalinquiry()\n+DepositMoney()\n+WithdrawMoney()\n+OpenAccount()\n+CloseAccount()\n+ApplyForLoan()\n+RequestCard()","x":-500,"y":-10,"width":220,"height":430},
+		{"id":"6b9bc8186996bdeb","type":"text","text":"---\ncssclasses: cc-border-squared\n---\n\n> [!cc-header] Bank\n\n+BankId: int\n+Name: string\n+Location: string`\n\n> [!cc-footer] <span></span>","x":-500,"y":-340,"width":220,"height":200},
+		{"id":"40e4a02bfb741adf","type":"text","text":"---\ncssclasses: cc-border-squared\n---\n\n> [!cc-header] Account\n\n+Id: int\n+CustomerId: int\n\n> [!cc-footer] <span></span>","x":-40,"y":20,"width":220,"height":163},
+		{"id":"0baca22ecf63ad8e","type":"text","text":"---\ncssclasses: cc-border-squared\n---\n\n> [!cc-header] Teller\n\n+Id: int\n+Name: string\n\n> [!cc-footer] <span></span>\n+CollectMoney()\n+OpenAccount()\n+CloseAccount()\n+LoanRequest()\n+ProvideInfo()\n+IssueCard()","x":-40,"y":-440,"width":220,"height":330},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n+1..*","id":"c5b194894a026f39","x":-100,"y":54,"width":97,"height":66},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n+1","id":"2f9820ef92c5eedb","x":-390,"y":-140,"width":97,"height":66},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n+1..*","id":"4da0d7063d17feb2","x":-106,"y":-275,"width":97,"height":66},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n+1..*","id":"adf126bcfd26987f","x":-390,"y":-60,"width":97,"height":66},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n+1","id":"95d93e174ddbe7ce","x":-196,"y":148,"width":97,"height":66},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\n# UML Class Diagram for a Banking System\n","id":"6eb5a84b3ac39ffb","x":-319,"y":-550,"width":621,"height":110},
+		{"id":"2fd8338e5ef8dc88","type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\n[Source of inspiration](https://medium.com/@smagid_allThings/uml-class-diagrams-tutorial-step-by-step-520fd83b300b)","x":280,"y":420,"width":253,"height":55,"color":"1"},
+		{"id":"5084cb3e30976932","type":"text","text":"---\ncssclasses: cc-border-squared\n---\n\n> [!cc-header] Loan\n\n+Id: int\n+Type: string +Accountld: int\n+CustomerId: int\n\n> [!cc-footer] <span></span>","x":-40,"y":280,"width":220,"height":200},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n+0..*","id":"829d235b5c501cba","x":-106,"y":320,"width":97,"height":66},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n+0..*","id":"2f81c4346d2c14ab","x":-106,"y":320,"width":97,"height":66},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n+1..*","id":"cf0cc1a469d28615","x":-261,"y":102,"width":97,"height":66},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n+1","id":"f966e62be11d6d71","x":-261,"y":214,"width":97,"height":66},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n+1","id":"d31ed125d8a7ed8f","x":-276,"y":-289,"width":80,"height":66},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n+1..*","id":"55389f62d78fcca1","x":-108,"y":-325,"width":97,"height":66},
+		{"id":"cb84ae3666c040a3","type":"text","text":"---\ncssclasses: cc-border-squared\n---\n\n> [!cc-header] Checking\n\n+Id: int\n+CustomerId: int\n\n> [!cc-footer] <span></span>","x":302,"y":-110,"width":220,"height":160},
+		{"id":"260a074e9249e3b9","type":"text","text":"---\ncssclasses: cc-border-squared\n---\n\n> [!cc-header] Savings\n\n+Id: int\n+CustomerId: int\n\n> [!cc-footer] <span></span>","x":302,"y":148,"width":220,"height":160}
+	],
+	"edges":[
+		{"id":"e47f0113a65d4e46","fromNode":"6b9bc8186996bdeb","fromSide":"bottom","toNode":"c01a47291ab625b5","toSide":"top","toEnd":"none"},
+		{"id":"1ece03a91ad8fa05","fromNode":"6b9bc8186996bdeb","fromSide":"right","toNode":"0baca22ecf63ad8e","toSide":"left","toEnd":"none"},
+		{"id":"83e73c719a736224","fromNode":"0baca22ecf63ad8e","fromSide":"left","toNode":"c01a47291ab625b5","toSide":"right","toEnd":"none"},
+		{"id":"99b327891dbca7da","fromNode":"c01a47291ab625b5","fromSide":"right","toNode":"40e4a02bfb741adf","toSide":"left","toEnd":"none"},
+		{"id":"069c090669363b04","fromNode":"c01a47291ab625b5","fromSide":"right","toNode":"5084cb3e30976932","toSide":"left","toEnd":"none"},
+		{"id":"699872841d3e2f84","fromNode":"cb84ae3666c040a3","fromSide":"left","toNode":"40e4a02bfb741adf","toSide":"right"},
+		{"id":"1025157dbb890987","fromNode":"260a074e9249e3b9","fromSide":"left","toNode":"40e4a02bfb741adf","toSide":"right"}
+	]
+}

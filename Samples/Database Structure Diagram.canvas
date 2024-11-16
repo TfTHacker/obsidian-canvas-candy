@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"type":"text","text":"> [!cc-header]  💼  **Project Class** \n\n|Property|Description|\n|-|-|\n|id| Unique identifier|\n|Name|Project Name|\n|CompanyID|Project Customer|\n|Stakeholder|CustomerID|\n|StartDate| Date project starts|\n","id":"18741047a4d2a772","x":500,"y":-700,"width":340,"height":300,"color":"4"},
+		{"type":"text","text":"> [!cc-label-left]  🗂 Company Class \n\n\n|Property|Description|\n|-|-|\n|id| Unique identifier|\n|Name|Company Name|\n|Address|Street Address|\n\n","id":"a84bda99116f4e49","x":-20,"y":-440,"width":340,"height":240,"color":"5"},
+		{"type":"text","text":"> [!cc-header]  🧑‍🦳  **Customer Class** \n\n\n|Property|Description|\n|-|-|\n|id| Unique identifier|\n|CompanyID|Project Customer|\n|First|First Name|\n|Last|Last Name|\n\n\n\n> [!cc-footer] **Customer Entity**\n>- Each customer as a unique ID\n>- See contacts for individuals within the company\n","id":"8583ff73844bb26e","x":500,"y":-275,"width":340,"height":395,"color":"4"},
+		{"type":"text","text":"> [!cc-header]  👥  **Project Team Class** \n\n\n|Property|Description|\n|-|-|\n|id| Unique identifier|\n|ProjectID|Project Identifier|\n","id":"90128987f0ac7bcc","x":950,"y":-652,"width":340,"height":205,"color":"6"},
+		{"type":"text","text":"> [!cc-header]  🧔🧑‍🦰  **Team Members Class** \n\n\n|Property|Description|\n|-|-|\n|id| Unique identifier|\n|TeamId|Team Identifier|\n|EmployeeId|Employee Identifier|\n|CustomerId|Customer Identifier|\n\n> [!cc-footer] **Team composition**\n>Teams are made up of employees\n>and customer representatives\n","id":"1b550b5f489165ac","x":940,"y":-259,"width":360,"height":363,"color":"6"},
+		{"type":"text","text":"> [!cc-header]  🧑‍🦳 **Employee Class** \n\n\n|Property|Description|\n|-|-|\n|id| Unique identifier|\n|First|First Name|\n|Last|Last Name|\n\n> [!cc-footer-noborder] Our employees","id":"8afb822003b7fab2","x":1420,"y":-383,"width":330,"height":248,"color":"3"},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\n# Project/Customer Database Diagram\n","id":"72d9fc7d5cf6f1ca","x":470,"y":-800,"width":820,"height":80}
+	],
+	"edges":[
+		{"id":"82400ea393db68af","fromNode":"a84bda99116f4e49","fromSide":"right","toNode":"8583ff73844bb26e","toSide":"left","fromEnd":"arrow"},
+		{"id":"d043968794e8ee00","fromNode":"a84bda99116f4e49","fromSide":"right","toNode":"18741047a4d2a772","toSide":"left","fromEnd":"arrow"},
+		{"id":"a26a77ca32782f78","fromNode":"18741047a4d2a772","fromSide":"bottom","toNode":"8583ff73844bb26e","toSide":"top"},
+		{"id":"713075594ededa78","fromNode":"90128987f0ac7bcc","fromSide":"bottom","toNode":"1b550b5f489165ac","toSide":"top"},
+		{"id":"31794d6d2552d894","fromNode":"8583ff73844bb26e","fromSide":"right","toNode":"1b550b5f489165ac","toSide":"left"},
+		{"id":"01fb71b9d40ffbbd","fromNode":"8afb822003b7fab2","fromSide":"left","toNode":"1b550b5f489165ac","toSide":"right"},
+		{"id":"5337b459cc01a0c1","fromNode":"90128987f0ac7bcc","fromSide":"left","toNode":"18741047a4d2a772","toSide":"right"}
+	]
+}

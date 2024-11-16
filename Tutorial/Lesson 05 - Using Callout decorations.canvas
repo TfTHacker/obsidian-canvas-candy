@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"type":"text","text":"---\ncssclasses: cc-border-left, cc-border-right, cc-border-dashed\n---\n\n# Lesson 5 - Using Callout decorations","id":"42e66f6734d62e8c","x":-520,"y":-420,"width":700,"height":80,"color":"6"},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\nAs mentioned in [[Lesson 01 - Getting Started.canvas|Lesson 01]], some decorations use Obsidian [Callouts](https://help.obsidian.md/Editing+and+formatting/Callouts).  Once more, please make sure you understand what a callout is before going further. This is a basic Obsidian feature which we assume you thoroughly understand.\n\nThere are a number of decorations that use callouts. Let us take a look at an example. Again, double-click the card to see its contents:","id":"1d7cd3dea89c6147","x":-520,"y":-340,"width":700,"height":260},
+		{"type":"text","text":">[!cc-header] Card with a header\n\nThis card is using a callout with a Canvas Candy Decoration.\n```\n>[!cc-header]\n```","id":"4910ab1e35f21999","x":-440,"y":-140,"width":360,"height":193,"color":"5"},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\nIf you look into the contents of the card, you'll notice no `cssclasses` defined, just a callout. This callout tells obsidian to draw a header into the card using the title provided in the callout description. \n\nOf course, callouts can be combined with cssclasseses. The following is the same card, but with no borders and a drop shadow added.","id":"4e5f24d41a5d1e92","x":-520,"y":100,"width":700,"height":260},
+		{"type":"text","text":"---\ncssclasses: cc-border-rounded,  cc-border-right, cc-card-center, cc-card-gradient-0deg\n---\n\n[[Next Steps - Learn about the different decorations.canvas|Next]]","id":"eaea043911ddc150","x":75,"y":540,"width":140,"height":60},
+		{"type":"text","text":"---\ncssclasses: cc-border-rounded,  cc-border-left, cc-card-center, cc-card-gradient-0deg\n---\n[[Lesson 04 - Using multiple decorations in a card.canvas|Previous]]","id":"8ceb770c5995d69e","x":-80,"y":540,"width":140,"height":60},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-border-dropshadow\n---\n\n>[!cc-header] Card with a header\n\nThis card is using a callout with a Canvas Candy Decoration.\n```\n>[!cc-header]\n```","id":"50032e72b65a03a0","x":-440,"y":300,"width":360,"height":193,"color":"5"}
+	],
+	"edges":[]
+}

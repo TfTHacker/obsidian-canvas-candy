@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 205.35 632.53" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="f" x1=".011719" x2=".007813" y1=".99505" y2=".006771">
+   <stop stop-color="#00f" stop-opacity=".996" offset="0"/>
+   <stop stop-color="#0ff" offset=".23828"/>
+   <stop stop-color="#2eff00" stop-opacity=".992" offset=".48047"/>
+   <stop stop-color="#ffe900" stop-opacity=".992" offset=".72656"/>
+   <stop stop-color="#f00" stop-opacity=".996" offset=".99609"/>
+   <stop stop-color="#f00" stop-opacity=".996" offset="1"/>
+  </linearGradient>
+  <linearGradient id="d" x1=".51661" x2=".5096" y1=".84568" y2=".11778">
+   <stop stop-color="#0f0" offset="0"/>
+   <stop stop-color="#f7ff00" offset=".61953"/>
+   <stop stop-color="#f00" offset="1"/>
+  </linearGradient>
+  <radialGradient id="e" cx="581.71" cy="790.63" r="39.374" gradientTransform="matrix(4.6649 -2.8446 2.7522 5.2416 -6046.8 -2952.3)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" offset="0"/>
+   <stop stop-color="#fff" stop-opacity="0" offset="1"/>
+  </radialGradient>
+ </defs>
+ <path d="m49.443 87.547v365.47c0 1.5319 0.10156 3.0304 0.21875 4.5312-22.688 17.218-37.344 44.477-37.344 75.156 0 52.073 42.209 94.281 94.281 94.281 52.073 0 94.281-42.209 94.281-94.281 0-30.676-14.659-57.938-37.344-75.156 0.11719-1.5008 0.1875-2.9993 0.1875-4.5312v-365.41h-111.88c-0.81042 0-1.6042-0.029388-2.4062-0.0625z" fill="url(#d)"/>
+ <path d="m142.78 519.27a71.391 72.052 0 1 1 -142.78 0 71.391 72.052 0 1 1 142.78 0z" fill="url(#e)"/>
+ <g stroke="#000" stroke-width="10">
+  <path d="m106.08 4.9864c-31.657 0-57.156 25.468-57.156 57.125v391.44c0 1.532 0.10159 3.0305 0.21875 4.5312-22.688 17.218-37.344 44.477-37.344 75.156 0 52.073 42.209 94.281 94.281 94.281s94.281-42.209 94.281-94.281c0-30.676-14.659-57.938-37.344-75.156 0.11719-1.5008 0.1875-2.9993 0.1875-4.5312v-391.44c0-31.657-25.468-57.125-57.125-57.125z" fill="url(#f)" stroke-linejoin="bevel"/>
+  <g fill="none">
+   <path d="m62.256 447.52h87.642"/>
+   <path d="m62.256 70.73h87.642"/>
+  </g>
+ </g>
+</svg>

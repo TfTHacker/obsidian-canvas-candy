@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+ <path transform="matrix(1.8132 0 0 1.8132 -99.894 -110.24)" d="m319.04 208.11a126.43 126.43 0 1 1 0.00542 -0.07269" fill="none" stroke="#000" stroke-width=".82725"/>
+ <path d="m250 21.044v457.91" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+ <path d="m478.96 250h-457.91" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+ <path d="m240 270h20" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+ <path d="m240 290h20" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+ <path d="m240 310h20" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+ <path d="m240 330h20" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+ <path d="m240 350h20" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+ <path d="m240 370h20" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+ <path d="m240 390h20" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+ <path d="m240 410h20" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+ <path d="m240 430h20" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+ <path d="m240 450h20" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+ <path d="m240 470h20" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+ <g transform="matrix(1,0,0,-1,0,500)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5">
+  <path d="m240 270h20"/>
+  <path d="m240 290h20"/>
+  <path d="m240 310h20"/>
+  <path d="m240 330h20"/>
+  <path d="m240 350h20"/>
+  <path d="m240 370h20"/>
+  <path d="m240 390h20"/>
+  <path d="m240 410h20"/>
+  <path d="m240 430h20"/>
+  <path d="m240 450h20"/>
+  <path d="m240 470h20"/>
+ </g>
+ <g transform="translate(262,-120)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5">
+  <path d="m240 270h20"/>
+  <path d="m240 290h20"/>
+  <path d="m240 310h20"/>
+  <path d="m240 330h20"/>
+  <path d="m240 350h20"/>
+  <path d="m240 370h20"/>
+  <path d="m240 390h20"/>
+  <path d="m240 410h20"/>
+  <path d="m240 430h20"/>
+  <path d="m240 450h20"/>
+  <path d="m240 470h20"/>
+ </g>
+ <g transform="matrix(0,1,-1,0,500,0)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5">
+  <path d="m240 270h20"/>
+  <path d="m240 290h20"/>
+  <path d="m240 310h20"/>
+  <path d="m240 330h20"/>
+  <path d="m240 350h20"/>
+  <path d="m240 370h20"/>
+  <path d="m240 390h20"/>
+  <path d="m240 410h20"/>
+  <path d="m240 430h20"/>
+  <path d="m240 450h20"/>
+  <path d="m240 470h20"/>
+  <g transform="matrix(1,0,0,-1,0,500)">
+   <path d="m240 270h20"/>
+   <path d="m240 290h20"/>
+   <path d="m240 310h20"/>
+   <path d="m240 330h20"/>
+   <path d="m240 350h20"/>
+   <path d="m240 370h20"/>
+   <path d="m240 390h20"/>
+   <path d="m240 410h20"/>
+   <path d="m240 430h20"/>
+   <path d="m240 450h20"/>
+   <path d="m240 470h20"/>
+  </g>
+ </g>
+ <g transform="matrix(0,1,-1,0,620,260.75)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5">
+  <path d="m240 270h20"/>
+  <path d="m240 290h20"/>
+  <path d="m240 310h20"/>
+  <path d="m240 330h20"/>
+  <path d="m240 350h20"/>
+  <path d="m240 370h20"/>
+  <path d="m240 390h20"/>
+  <path d="m240 410h20"/>
+  <path d="m240 430h20"/>
+  <path d="m240 450h20"/>
+  <path d="m240 470h20"/>
+ </g>
+ <g transform="translate(-259.25,-120)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5">
+  <path d="m240 270h20"/>
+  <path d="m240 290h20"/>
+  <path d="m240 310h20"/>
+  <path d="m240 330h20"/>
+  <path d="m240 350h20"/>
+  <path d="m240 370h20"/>
+  <path d="m240 390h20"/>
+  <path d="m240 410h20"/>
+  <path d="m240 430h20"/>
+  <path d="m240 450h20"/>
+  <path d="m240 470h20"/>
+ </g>
+ <g transform="matrix(0,1,-1,0,620,-259.25)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5">
+  <path d="m240 270h20"/>
+  <path d="m240 290h20"/>
+  <path d="m240 310h20"/>
+  <path d="m240 330h20"/>
+  <path d="m240 350h20"/>
+  <path d="m240 370h20"/>
+  <path d="m240 390h20"/>
+  <path d="m240 410h20"/>
+  <path d="m240 430h20"/>
+  <path d="m240 450h20"/>
+  <path d="m240 470h20"/>
+ </g>
+ <path d="m0 0 40 40" fill="none" stroke="#000"/>
+ <path d="m0 500 40-40" fill="none" stroke="#000"/>
+ <path d="m500 500-40-40" fill="none" stroke="#000"/>
+ <path d="m500 0-40 40" fill="none" stroke="#000"/>
+ <path d="m30 50 20-20" fill="none" stroke="#000"/>
+ <path d="m450 30 20 20" fill="none" stroke="#000"/>
+ <path d="m30 450 20 20" fill="none" stroke="#000"/>
+ <path d="m450 470 20-20" fill="none" stroke="#000"/>
+ <path d="m210 290-110 110" fill="none" stroke="#000"/>
+ <path d="m210 210-110-110" fill="none" stroke="#000"/>
+ <path d="m290 210 110-110" fill="none" stroke="#000"/>
+ <path d="m290 290 110 110" fill="none" stroke="#000"/>
+ <path d="m90 110 20-20" fill="none" stroke="#000"/>
+ <path d="m90 390 20 20" fill="none" stroke="#000"/>
+ <path d="m390 90 20 20" fill="none" stroke="#000"/>
+ <path d="m390 410 20-20" fill="none" stroke="#000"/>
+</svg>

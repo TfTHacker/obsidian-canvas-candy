@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"type":"text","text":"---\ncssclasses: cc-border-double, cc-card-nocolor\n---\n\n>[!cc-header]  # Welcome! 🥳 🎉\n\n<div style=\"height:30px\"></div>\n\nWelcome to **Canvas Candy**, a tool for adding decorative spice to your Canvas documents.","id":"2866fd5bd9f47463","x":-420,"y":-900,"width":340,"height":280,"color":"5"},
+		{"type":"text","text":"---\ncssclasses: cc-card-nocolor\n---\n\n>[!cc-header] **Tutorial**\n\nTo get you started, we created this hands on tutorial that should take you under 30 minutes to complete in order to learn the basics. To start the tutorial, click this link: [[Lesson 01 - Getting Started.canvas|Lesson 01]]\n","id":"bca755ec4e93bf58","x":-280,"y":-380,"width":420,"height":220,"color":"2"},
+		{"type":"text","text":"---\ncssclasses: cc-card-nocolor\n---\n\n>[!cc-header] **Getting Started**\n\nCanvas Candy is easy to use, but takes a few minute to learn the basics, and of course, some practice to fully leverage the sweet possibilities of Canvas Candy.","id":"b344cd0a41ce96af","x":40,"y":-820,"width":340,"height":240,"color":"4"},
+		{"id":"6e356cc02a91ae56","type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\n","x":640,"y":40,"width":250,"height":120},
+		{"id":"e4c5cd92a31321b2","type":"file","file":"Stencils/media/Stickers/party-cc-image.svg","x":-381,"y":-220,"width":203,"height":209},
+		{"type":"text","text":"---\ncssclasses: cc-card-nocolor\n---\n\n>[!cc-header] **What can Canvas Candy do?**\n\nBefore we get into the learning part, let us start with the fun part: seeing what Canvas Candy can do. Take a look at the following sample documents. As you do, take note of the unique ways we can visually enhance  Canvas documents. Canvas is amazing for productivity, but why not make it also fun! \n\n- [[Database Structure Diagram.canvas|Class Diagram]]\n- [[BPMN Travel Agency.canvas|Business Process Diagram]]\n","id":"8d34efb290d8eac6","x":481,"y":-860,"width":340,"height":420,"color":"3"},
+		{"id":"e0ad73ce29d2e407","type":"file","file":"Stencils/media/Stickers/party-cc-image.svg","x":705,"y":-520,"width":233,"height":239},
+		{"id":"38930ebd0701e6d6","type":"file","file":"Stencils/media/Stickers/party-cc-image.svg","x":-178,"y":-961,"width":137,"height":141},
+		{"type":"text","text":"---\ncssclasses: cc-card-nocolor\n---\n\n>[!cc-header] **Setup your personal vault**\n\nNow that you are familiar with Canvas Candy you will want to configure your vault to use the tasty Canvas Candy decorations in your personal canvas files. Click on this link to learn how: [[SETUP YOUR VAULT.canvas|Setup your vault for Canvas Candy]]\n\nDon't forget to sign up for the Canvas Candy [newsletter](https://canvascandy.substack.com) to get updates about future updates to this tool.\n","id":"744fb4396651034b","x":385,"y":-270,"width":395,"height":310,"color":"6"}
+	],
+	"edges":[
+		{"id":"4db2b61ca9fba1a7","fromNode":"2866fd5bd9f47463","fromSide":"right","toNode":"b344cd0a41ce96af","toSide":"left"},
+		{"id":"a32349849e20d573","fromNode":"b344cd0a41ce96af","fromSide":"right","toNode":"8d34efb290d8eac6","toSide":"left"},
+		{"id":"830155770e391ede","fromNode":"8d34efb290d8eac6","fromSide":"bottom","toNode":"bca755ec4e93bf58","toSide":"top"},
+		{"id":"2d8a7d13a1b6f23b","fromNode":"bca755ec4e93bf58","fromSide":"right","toNode":"744fb4396651034b","toSide":"left"}
+	]
+}

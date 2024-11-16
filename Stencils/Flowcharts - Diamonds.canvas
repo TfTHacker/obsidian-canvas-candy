@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"8343da8fb3edc6d8","type":"file","file":"Stencils/media/diamonds/diamond-red-solid-cc-image.svg","x":-154,"y":-285,"width":149,"height":150},
+		{"id":"18c9c97a4363fe56","type":"file","file":"Stencils/media/diamonds/diamond-orange-solid-cc-image.svg","x":-154,"y":-93,"width":149,"height":150},
+		{"id":"6f925b7f81d0bbb0","type":"file","file":"Stencils/media/diamonds/diamond-brown-soft-cc-image.svg","x":37,"y":100,"width":149,"height":150},
+		{"id":"69ea61e2ff03779e","type":"text","text":"![[02 Stencil Index]]\n\n","x":16,"y":320,"width":340,"height":500},
+		{"id":"37ae2e0890b417fe","type":"file","file":"Stencils/media/diamonds/diamond-brown-solid-cc-image.svg","x":-154,"y":100,"width":149,"height":150},
+		{"id":"03188088ea7274af","type":"file","file":"Stencils/media/diamonds/diamond-purple-solid-cc-image.svg","x":240,"y":100,"width":149,"height":150},
+		{"id":"1c8138ecaf83e814","type":"file","file":"Stencils/media/diamonds/diamond-purple-soft-cc-image.svg","x":431,"y":100,"width":149,"height":150},
+		{"id":"5d95852d4c360d34","type":"file","file":"Stencils/media/diamonds/diamond-grey-solid-cc-image.svg","x":-154,"y":-477,"width":149,"height":150},
+		{"id":"0bcd1ead47d477e6","type":"file","file":"Stencils/media/diamonds/diamond-orange-soft-cc-image.svg","x":37,"y":-93,"width":149,"height":150},
+		{"id":"30704cf46dea3868","type":"file","file":"Stencils/media/diamonds/diamond-turquoise-solid-cc-image.svg","x":240,"y":-93,"width":149,"height":150},
+		{"id":"2f293b91ec336786","type":"file","file":"Stencils/media/diamonds/diamond-turquoise-soft-cc-image.svg","x":431,"y":-93,"width":149,"height":150},
+		{"id":"70e627be2d878a51","type":"file","file":"Stencils/media/diamonds/diamond-red-soft-cc-image.svg","x":37,"y":-285,"width":149,"height":150},
+		{"id":"9c20c31e280c3730","type":"file","file":"Stencils/media/diamonds/diamond-green-solid-cc-image.svg","x":240,"y":-285,"width":149,"height":150},
+		{"id":"f64fae777a598609","type":"file","file":"Stencils/media/diamonds/diamond-green-soft-cc-image.svg","x":431,"y":-285,"width":149,"height":150}
+	],
+	"edges":[]
+}

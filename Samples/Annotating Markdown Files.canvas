@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"e43e2ed7b9eb3fab","type":"file","file":"Samples/media/sample notes/annotation/Bluejay.md","x":-20,"y":-580,"width":680,"height":744},
+		{"id":"c4d447ea3188909b","type":"text","text":"---\ncssclasses: cc-card-transparent, cc-border-dashed\n---\n\nA Markdown H1 header","x":-245,"y":-569,"width":560,"height":60,"color":"3"},
+		{"id":"f4b27eaab095cf3b","type":"text","text":"---\ncssclasses: cc-card-transparent, cc-border-dashed\n---\n\nEmbedded image\nSized to not be large","x":-240,"y":-371,"width":363,"height":142,"color":"4"},
+		{"id":"6727ed26b4bab8ab","type":"text","text":"---\ncssclasses: cc-card-transparent, cc-border-none\n---\n\nThe following file is a markdown file in this vault. It is embedded in the canvas. Using cards with decorations, we can annotate aspects of this document, just as we might use other programs for annotation.","x":-207,"y":-696,"width":843,"height":100,"color":"3"},
+		{"id":"b021cf4b2bd71340","type":"text","text":"---\ncssclasses: cc-card-transparent, cc-border-dotted\n---\n\nBolded text","x":260,"y":-277,"width":400,"height":138,"color":"1"},
+		{"type":"text","text":"---\ncssclasses: cc-border-bottom, cc-card-transparent, cc-card-center\n---\n\n# Annotating Markup in a Canvas","id":"28aea9bd3c84e020","x":-285,"y":-760,"width":1000,"height":64},
+		{"id":"63f8d5da6b5da612","type":"text","text":"---\ncssclasses: cc-card-transparent, cc-border-dashed\n---\n\nCompiled footnotes\nat bottom of document","x":-242,"y":-60,"width":602,"height":240,"color":"2"}
+	],
+	"edges":[]
+}

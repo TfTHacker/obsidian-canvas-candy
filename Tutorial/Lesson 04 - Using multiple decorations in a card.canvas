@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"type":"text","text":"---\ncssclasses: cc-border-left, cc-border-right, cc-border-dashed\n---\n\n# Lesson 4: Using multiple decorations in one card","id":"d7ba00af68ff685f","x":-600,"y":-400,"width":700,"height":80,"color":"6"},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\nIn many cases, more than one decoration can be combined into a card. For example, perhaps you want a card with a dotted border, the border to be orange color, but don't want any background color in the card. For this we need to do the following:\n1. Draw a card on the canvas\n2. Set the color to orange\n3. Add two cssclasses:\n\t1. `cc-border-double`\n\t2. `cc-card-nocolor`","id":"d16cf350c91221d5","x":-600,"y":-320,"width":700,"height":340},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\nThe following card is identical to the previous, with the two decorations, however now, we have added a 3rd decoration to add a drop shadow. This decoration is: `cc-dropshadow`. Double-click the card to examine it's contents.","id":"108b2b93b24c6194","x":-600,"y":130,"width":298,"height":310},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\nHere is what this card will look like with multiple decorations. Go ahead and double-click the card to see the contents of the card.","id":"02680243a7aeb008","x":-600,"y":-55,"width":260,"height":170},
+		{"type":"text","text":"---\ncssclasses: cc-border-double, cc-card-nocolor\n---\n\nHELLO WORLD\n","id":"6c7f59cd060bbcca","x":-262,"y":-35,"width":215,"height":110,"color":"5"},
+		{"type":"text","text":"---\ncssclasses: cc-border-double, cc-card-nocolor, cc-border-dropshadow\n---\n\nHELLO WORLD","id":"b4dcce528df0a517","x":-262,"y":156,"width":215,"height":129,"color":"5"},
+		{"type":"text","text":"---\ncssclasses: cc-border-rounded,  cc-border-right, cc-card-center, cc-card-gradient-0deg\n---\n\n[[Lesson 05 - Using Callout decorations.canvas|Next]]","id":"b61a67e5afd98a41","x":-40,"y":340,"width":140,"height":60},
+		{"type":"text","text":"---\ncssclasses: cc-border-rounded,  cc-border-left, cc-card-center, cc-card-gradient-0deg\n---\n\n[[Lesson 03 - Try decorating a card for yourself.canvas|Previous]]","id":"769759d2ec2b05e5","x":-195,"y":340,"width":140,"height":60}
+	],
+	"edges":[]
+}

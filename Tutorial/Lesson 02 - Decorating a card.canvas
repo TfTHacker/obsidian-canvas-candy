@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"type":"text","text":"---\ncssclasses: cc-border-left, cc-border-right, cc-border-dashed\n---\n\n# Lesson 2: Decorating a card","id":"01f3bd75d097d0b9","x":-560,"y":-640,"width":680,"height":80,"color":"6"},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\n#### Using cssclasses for Decorations\nAs stated, cssclasses are used to change the appearance of a card on an Obsidian Canvas. A cssclasses is made up of a few elements. As shown in the previous example, we were using the following callout:\n\n```\n---\ncssclasses: cc-border-double\n---\n```\n\nWhich produced the following result in a card:","id":"5eb4b462197c26fd","x":-560,"y":-560,"width":680,"height":360},
+		{"type":"text","text":"---\ncssclasses: cc-border-rounded,  cc-border-right, cc-card-center, cc-card-gradient-0deg\n---\n\n [[Lesson 03 - Try decorating a card for yourself.canvas|Next]]","id":"f132abb51cc2c731","x":-20,"y":100,"width":140,"height":60},
+		{"type":"text","text":"---\ncssclasses: cc-border-rounded,  cc-border-left, cc-card-center, cc-card-gradient-0deg\n---\n\n[[Lesson 01 - Getting Started.canvas|Previous]]","id":"ab371a30047efa27","x":-175,"y":100,"width":140,"height":60},
+		{"type":"text","text":"---\ncssclasses: cc-border-double\n---\n\n**Hi world**\nI am Markdown text.","id":"4d249f1d2ee79d6c","x":-142,"y":-80,"width":215,"height":100,"color":"5"},
+		{"type":"text","text":"---\ncssclasses: cc-border-double\n---\n\n","id":"bb458d0469b9ae69","x":-142,"y":-250,"width":215,"height":100,"color":"5"},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\nDouble click on the card above with the double-line border. You will see its contents have the cssclasses with the command `cc-border-double`. This tells Obsidian to change the normal thick line border into double lines.\n\nThis is the secret sauce: these special cssclasses are decorating the card, but are not visible unless you are editing the card.\n\nNotice that the following card also has double lines, but has text in it. Go ahead and double-click on the card to see its contents. ","id":"7526699335c2bf5a","x":-560,"y":-190,"width":385,"height":420}
+	],
+	"edges":[]
+}

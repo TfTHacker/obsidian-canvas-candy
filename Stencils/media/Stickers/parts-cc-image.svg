@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="800" version="1.1" viewBox="0 0 800.00001 800.00001" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="c" x1="390" x2="-2.8572" y1="719.18" y2="1056.3" gradientUnits="userSpaceOnUse">
+   <stop offset="0"/>
+   <stop stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <mask id="b" maskUnits="userSpaceOnUse">
+   <circle cx="400" cy="652.36" r="400" color="#000000" color-rendering="auto" fill="#fff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+  </mask>
+  <mask id="a" maskUnits="userSpaceOnUse">
+   <circle cx="400" cy="652.36" r="400" color="#000000" color-rendering="auto" fill="#fff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+  </mask>
+ </defs>
+ <g transform="translate(0 -252.36)" shape-rendering="auto">
+  <circle cx="400" cy="652.36" r="400" color="#000000" color-rendering="auto" fill="#1c8adb" image-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+  <path d="m485.44 453.57-105.08 105.11c-40.654 69.101-123.95 57.786-168.87 49.82l-199.38 199.38c32.631 152.88 146.58 239.7 362.02 244.05l199.96-199.96-88.617-91.564-80.217-46.311 168.83-168.89z" color="#000000" color-rendering="auto" fill="url(#c)" image-rendering="auto" mask="url(#a)" opacity=".42" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+  <path d="m530.53 434.88a63.759 63.759 0 0 0 -63.751 63.788 63.759 63.759 0 0 0 0.78122 9.6761l-166.91 96.353a63.759 63.759 0 0 0 -42.613 -16.412 63.759 63.759 0 0 0 -63.751 63.751 63.759 63.759 0 0 0 63.751 63.751 63.759 63.759 0 0 0 43.766 -17.417l166.02 95.869a63.759 63.759 0 0 0 -1.0423 11.202 63.759 63.759 0 0 0 63.751 63.751 63.759 63.759 0 0 0 63.751 -63.751 63.759 63.759 0 0 0 -63.751 -63.788 63.759 63.759 0 0 0 -45.069 18.757l-165.02-95.273a63.759 63.759 0 0 0 1.3776 -13.1 63.759 63.759 0 0 0 -1.7854 -14.514l164.38-94.864a63.759 63.759 0 0 0 46.111 19.762 63.759 63.759 0 0 0 63.751 -63.751 63.759 63.759 0 0 0 -63.751 -63.788z" color="#000000" color-rendering="auto" fill="#fff" image-rendering="auto" mask="url(#b)" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+ </g>
+</svg>

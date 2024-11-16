@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 182 140" xmlns="http://www.w3.org/2000/svg">
+ <path d="m68.53 136.56l-29.515-28.387-7.7048-63.689s106.11-43.677 127.81-32.433c21.708 11.243 20.197 29.193 20.197 29.193l-0.199 52.978-110.59 42.339z" fill="#fff" stroke="#000" stroke-width="2.994"/>
+ <path d="m24.696 110.13v-53.474s-1.0183-20.692 21.751-8.9186c22.782 11.774 21.26 30.689 21.26 30.689v55.814l-43.011-24.11z" fill="#fff" fill-rule="evenodd" stroke="#000" stroke-width="2.9315"/>
+ <path transform="translate(4 8) matrix(1.2714 0 0 1.2714 -591.88 -30.598)" d="m528.7 98.424v-48.923l31.92-9.593v20.145l-25.31 8.633v29.738s-2.21 8.636-6.61 0z" fill-rule="evenodd" stroke="#000" stroke-width=".51378px"/>
+ <path d="m65.656 69.422l-22.275 8.3876 13.757 27.138 10.477-5.9218-1.959-29.604z" fill="none" stroke="#000" stroke-width="1.9296"/>
+ <path d="m66.144 80.14l-16.443 7.4097 10.163 23.973 7.7396-5.226-1.4593-26.157z" fill="#fff" fill-rule="evenodd" stroke="#000" stroke-width="2.5"/>
+ <path d="m24.663 114.99l-19.695-44.596s-7.8984-16.228 13.298-5.4248c21.185 10.804 26.561 25.466 26.561 25.466l19.224 43.578-39.389-19.023z" fill="#fff" fill-rule="evenodd" stroke="#000" stroke-width="4"/>
+ <path transform="translate(4 8) matrix(1.1883 0 0 1.0352 -548.76 .7977)" d="m480.12 87.649s0.85 7.59 5.91 9.277 10.12-1.687 10.12-1.687-4.22 0-9.28-2.53-5.06-5.06-6.75-5.06z" fill-rule="evenodd"/>
+ <line transform="translate(4 8) matrix(1.2416 0 0 .76265 -27.832 10.972)" x1="59.928" x2="73.24" y1="91.652" y2="94.212" fill="none" fill-opacity="null" stroke="#000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="2.5"/>
+ <line transform="translate(4 8) matrix(.97619 0 0 .9246 -7.488 -5.4952)" x1="49.176" x2="71.192" y1="80.9" y2="83.972" fill="none" fill-opacity="null" stroke="#000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="2.5"/>
+ <line transform="translate(4 8) matrix(.46872 0 0 .42808 29.532 61.706)" x1="43.063" x2="50.599" y1="91.75" y2="87.818" fill="none" stroke="#000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null"/>
+</svg>

@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"type":"text","text":"---\ncssclasses: cc-shape-circle, cc-card-opaque, cc-border-none \n---","id":"10bfa79575c83ba8","x":-314,"y":-262,"width":380,"height":390,"color":"6"},
+		{"type":"text","text":"---\ncssclasses: cc-shape-circle, cc-card-opaque, cc-border-none \n---","id":"c5beeb4218503426","x":-114,"y":-262,"width":380,"height":390,"color":"5"},
+		{"type":"text","text":"---\ncssclasses: cc-shape-circle, cc-card-opaque, cc-border-none \n---","id":"46f663a4b44c4cb7","x":-214,"y":-127,"width":380,"height":390,"color":"4"},
+		{"id":"3d16a10e6119bba6","type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\n# Components of Productivity Venn Diagram\n","x":-334,"y":-380,"width":720,"height":140},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\n**ATTENTION**","id":"9bdfaa4fc1d3df21","x":-94,"y":140,"width":260,"height":84},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\n**ENERGY**","id":"87c364965cc7e333","x":100,"y":-171,"width":260,"height":84},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\n**TIME**","id":"5a0cbf9f7244d7bf","x":-254,"y":-170,"width":260,"height":84},
+		{"type":"text","text":"---\ncssclasses: cc-card-center, cc-border-none, cc-card-transparent\n---\n\n# PRODUCTIVITY","id":"042b7163d0a50972","x":-314,"y":-69,"width":580,"height":80}
+	],
+	"edges":[]
+}

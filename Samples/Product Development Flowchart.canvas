@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"0c05b597c1738331","type":"text","text":"---\ncssclasses: cc-card-center, cc-border-none \n---\n\nBrainstorming Session","x":-240,"y":-260,"width":185,"height":100,"color":"4"},
+		{"id":"4335b645b15cc994","type":"text","text":"---\ncssclasses: cc-card-center, cc-border-none \n---\n\nTrends","x":20,"y":-400,"width":185,"height":100,"color":"6"},
+		{"id":"8dd63b7a90a8c761","type":"text","text":"---\ncssclasses: cc-card-center, cc-border-none \n---\n\nNew product\nideas","x":20,"y":-260,"width":185,"height":100,"color":"6"},
+		{"id":"7ca6b8db9485089f","type":"text","text":"---\ncssclasses: cc-card-center, cc-border-none \n---\n\nResearch","x":20,"y":-120,"width":185,"height":100,"color":"6"},
+		{"id":"2da1f42f8ff2a463","type":"text","text":"---\ncssclasses: cc-card-center, cc-border-none \n---\n\nPrototyping","x":280,"y":-259,"width":185,"height":100,"color":"3"},
+		{"id":"390cff6d6ca51813","type":"text","text":"---\ncssclasses: cc-card-center, cc-border-none \n---\n\nQuick\ndesign","x":540,"y":-79,"width":185,"height":100,"color":"2"},
+		{"id":"d22923fe5177c9f8","type":"file","file":"Stencils/media/diamonds/diamond-red-soft-cc-image.svg","x":550,"y":-292,"width":164,"height":165},
+		{"id":"671110b4fba1a119","type":"text","text":"---\ncssclass: cc-card-transparent,cc-border-none\n---\n\nPrototype\nevaluation","x":563,"y":-254,"width":139,"height":109,"color":"1"},
+		{"id":"6a821219ed1557c9","type":"text","text":"---\ncssclasses: cc-card-center, cc-border-none, cc-shape-parallelogram-left \n---\n\nRequirements\nRefinement","x":800,"y":-79,"width":165,"height":100,"color":"2"},
+		{"id":"74249b6c7c159704","type":"text","text":"---\ncssclasses: cc-card-center, cc-border-none \n---\n\nImplementation","x":1012,"y":-439,"width":185,"height":100,"color":"5"},
+		{"id":"4f2d2a2a6c802e7d","type":"text","text":"---\ncssclasses: cc-card-center, cc-border-none, cc-border-rounded\n---\n\nTesting","x":1012,"y":-254,"width":185,"height":100,"color":"4"},
+		{"id":"e9bef106b449f700","type":"text","text":"---\ncssclasses: cc-card-center, cc-border-none \n---\n\nReview","x":808,"y":-259,"width":150,"height":100,"color":"2"},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\n# Product Development Flowchart","id":"3a1fb6d2e225bcd3","x":200,"y":-569,"width":873,"height":109},
+		{"id":"97cf0d5827843a98","type":"text","text":"---\ncssclasses: cc-card-center, cc-border-none, cc-shape-parallelogram-right\n---\n\nDesign","x":760,"y":-439,"width":158,"height":100,"color":"5"}
+	],
+	"edges":[
+		{"id":"ee99c08b69a04b4e","fromNode":"4335b645b15cc994","fromSide":"bottom","toNode":"8dd63b7a90a8c761","toSide":"top"},
+		{"id":"489d0837990d7d49","fromNode":"7ca6b8db9485089f","fromSide":"top","toNode":"8dd63b7a90a8c761","toSide":"bottom"},
+		{"id":"e9e4287da07ca68b","fromNode":"0c05b597c1738331","fromSide":"right","toNode":"8dd63b7a90a8c761","toSide":"left"},
+		{"id":"a23b72b5ae7f4b05","fromNode":"8dd63b7a90a8c761","fromSide":"right","toNode":"2da1f42f8ff2a463","toSide":"left"},
+		{"id":"473ecdc8dd7b8f71","fromNode":"2da1f42f8ff2a463","fromSide":"right","toNode":"d22923fe5177c9f8","toSide":"left"},
+		{"id":"3c13fc81f33b522c","fromNode":"390cff6d6ca51813","fromSide":"left","toNode":"2da1f42f8ff2a463","toSide":"bottom"},
+		{"id":"4aba6a4651d54b2b","fromNode":"d22923fe5177c9f8","fromSide":"right","toNode":"e9bef106b449f700","toSide":"left","label":"no"},
+		{"id":"1a29c29ae86d5f8c","fromNode":"d22923fe5177c9f8","fromSide":"top","toNode":"97cf0d5827843a98","toSide":"left","label":"yes"},
+		{"id":"b9ceb1da1c154142","fromNode":"97cf0d5827843a98","fromSide":"right","toNode":"74249b6c7c159704","toSide":"left"},
+		{"id":"995a1bf1fa1ce015","fromNode":"e9bef106b449f700","fromSide":"bottom","toNode":"6a821219ed1557c9","toSide":"top"},
+		{"id":"7f1fbbb9e5bea86c","fromNode":"6a821219ed1557c9","fromSide":"left","toNode":"390cff6d6ca51813","toSide":"right"},
+		{"id":"74f7703be3e7afa9","fromNode":"74249b6c7c159704","fromSide":"bottom","toNode":"4f2d2a2a6c802e7d","toSide":"top"}
+	]
+}

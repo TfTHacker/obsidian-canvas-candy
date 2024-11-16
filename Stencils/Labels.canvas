@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"type":"text","text":">[!cc-label-left] **Label Left**\n\n\n**Callouts:**\n```\n>[!cc-label-left]\n```\n","id":"8c7322e56fce1f31","x":-740,"y":760,"width":360,"height":260,"color":"1"},
+		{"type":"text","text":">[!cc-label-left-noborder] **Label Left**\n\n\n**Callouts:**\n```\n>[!cc-label-left-noborder]\n```\n","id":"cf61295d23326ea7","x":-340,"y":760,"width":360,"height":260,"color":"1"},
+		{"type":"text","text":">[!cc-label-right] Label right\n\n\n**Callouts:**\n```\n>[!cc-label-right]\n```","id":"f05bad676973d0ca","x":-740,"y":1060,"width":360,"height":260,"color":"1"},
+		{"type":"text","text":">[!cc-label-right-noborder] Label right\n\n\n**Callouts:**\n```\n>[!cc-label-right-noborder]\n```","id":"57b8be84d797233a","x":-334,"y":1060,"width":360,"height":260,"color":"1"},
+		{"id":"fbd56f5a7e51db0e","type":"text","text":"![[02 Stencil Index]]\n\n","x":-740,"y":1360,"width":340,"height":500}
+	],
+	"edges":[]
+}

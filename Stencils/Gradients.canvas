@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"429a7d4e816e21e2","type":"text","text":"---\ncssclasses: cc-card-gradient-0deg\n---\n\ncc-card-gradient-0deg\n","x":-240,"y":-540,"width":300,"height":120,"color":"1"},
+		{"id":"627f90f550a27bce","type":"text","text":"---\ncssclasses: cc-card-gradient-45deg\n---\n\ncc-card-gradient-45deg\n\n","x":-240,"y":-395,"width":300,"height":140,"color":"1"},
+		{"id":"8ccefc93e95df932","type":"text","text":"---\ncssclasses: cc-card-gradient-90deg\n---\n\ncc-card-gradient-90deg\n","x":-240,"y":-230,"width":300,"height":120,"color":"1"},
+		{"id":"63022684300a892e","type":"text","text":"---\ncssclasses: cc-card-gradient-135deg\n---\n\ncc-card-gradient-135deg\n","x":-240,"y":-85,"width":300,"height":120,"color":"1"},
+		{"id":"3c2fcda0028afb83","type":"text","text":"![[02 Stencil Index]]\n\n","x":-70,"y":120,"width":340,"height":520},
+		{"id":"5e44e421b854f112","type":"text","text":"---\ncssclasses: cc-card-gradient-180deg\n---\n\ncc-card-gradient-180deg\n","x":100,"y":-540,"width":300,"height":120,"color":"1"},
+		{"id":"6218034c5fd09146","type":"text","text":"---\ncssclasses: cc-card-gradient-225deg\n---\n\ncc-card-gradient-225deg\n","x":100,"y":-395,"width":300,"height":140,"color":"1"},
+		{"id":"b25ca53eab2920a8","type":"text","text":"---\ncssclasses: cc-card-gradient-270deg\n---\n\ncc-card-gradient-270deg\n","x":100,"y":-230,"width":300,"height":120,"color":"1"},
+		{"id":"adc0eddee953ed35","type":"text","text":"---\ncssclasses: cc-card-gradient-315deg\n---\n\ncc-card-gradient-315deg\n","x":100,"y":-85,"width":300,"height":120,"color":"1"}
+	],
+	"edges":[]
+}

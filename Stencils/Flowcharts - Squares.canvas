@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"be3ed1d7aa0e9495","type":"text","text":"---\ncssclasses: cc-card-center \n---\n\nSquare","x":-960,"y":4,"width":185,"height":160,"color":"3"},
+		{"id":"51617db5f833d21b","type":"text","text":"---\ncssclasses: cc-card-center \n---\n\nSquare","x":-960,"y":-268,"width":185,"height":160,"color":"2"},
+		{"id":"f0e3f6a92ab44cc9","type":"text","text":"---\ncssclasses: cc-card-center \n---\n\nSquare","x":-960,"y":-540,"width":185,"height":160,"color":"1"},
+		{"id":"0fff4cb3b188736f","type":"text","text":"---\ncssclasses: cc-card-center, cc-card-fill \n---\n\nSquare","x":-729,"y":-540,"width":185,"height":160,"color":"1"},
+		{"id":"79a265295dd1c923","type":"text","text":"---\ncssclasses: cc-card-center, cc-border-none \n---\n\nSquare","x":-498,"y":-268,"width":185,"height":160,"color":"2"},
+		{"id":"8d0228f5c823be9a","type":"text","text":"---\ncssclasses: cc-card-center, cc-card-fill \n---\n\nSquare","x":-729,"y":-268,"width":185,"height":160,"color":"2"},
+		{"id":"9024fcaf4ad88183","type":"text","text":"---\ncssclasses: cc-card-center, cc-border-none \n---\n\nSquare","x":-498,"y":-540,"width":185,"height":160,"color":"1"},
+		{"id":"a6716abfe3618a7f","type":"text","text":"---\ncssclasses: cc-card-center, cc-card-fill \n---\n\nSquare","x":-729,"y":-800,"width":185,"height":160},
+		{"id":"9c9d9f4db1b720cd","type":"text","text":"---\ncssclasses: cc-card-center \n---\n\nSquare","x":-960,"y":-800,"width":185,"height":160},
+		{"id":"86029737d0013444","type":"text","text":"---\ncssclasses: cc-card-center, cc-card-fill \n---\n\nSquare","x":-729,"y":4,"width":185,"height":160,"color":"3"},
+		{"id":"4cccda919a72fa2e","type":"text","text":"---\ncssclasses: cc-card-center, cc-border-none \n---\n\nSquare","x":-498,"y":4,"width":185,"height":160,"color":"3"},
+		{"id":"25d78adfdcff50df","type":"text","text":"---\ncssclasses: cc-card-center \n---\n\nSquare","x":-200,"y":-268,"width":185,"height":160,"color":"5"},
+		{"id":"2d90ffe7cdd479c6","type":"text","text":"---\ncssclasses: cc-card-center, cc-card-fill \n---\n\nSquare","x":31,"y":-266,"width":185,"height":160,"color":"5"},
+		{"id":"e34b2698e3384f51","type":"text","text":"---\ncssclasses: cc-card-center, cc-border-none \n---\n\nSquare","x":262,"y":-266,"width":185,"height":160,"color":"5"},
+		{"id":"e099d8855bf41a14","type":"text","text":"---\ncssclasses: cc-card-center \n---\n\nSquare","x":-200,"y":2,"width":185,"height":160,"color":"6"},
+		{"id":"062b13c986910c39","type":"text","text":"---\ncssclasses: cc-card-center, cc-card-fill \n---\n\nSquare","x":31,"y":4,"width":185,"height":160,"color":"6"},
+		{"id":"4629b4e9d26daa78","type":"text","text":"---\ncssclasses: cc-card-center, cc-border-none \n---\n\nSquare","x":262,"y":4,"width":185,"height":160,"color":"6"},
+		{"id":"0317ee27a93d98d3","type":"text","text":"---\ncssclasses: cc-card-center \n---\n\nSquare","x":-200,"y":-540,"width":185,"height":160,"color":"4"},
+		{"id":"262a53776bba1afc","type":"text","text":"---\ncssclasses: cc-card-center, cc-card-fill \n---\n\nSquare","x":31,"y":-540,"width":185,"height":160,"color":"4"},
+		{"id":"28e386d2168c954a","type":"text","text":"---\ncssclasses: cc-card-center, cc-border-none \n---\n\nSquare","x":262,"y":-540,"width":185,"height":160,"color":"4"},
+		{"id":"da336eaf090f1c9e","type":"text","text":"![[02 Stencil Index]]\n\n","x":-483,"y":320,"width":340,"height":500}
+	],
+	"edges":[]
+}

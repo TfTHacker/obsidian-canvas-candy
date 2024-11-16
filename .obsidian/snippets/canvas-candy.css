@@ -1,0 +1,824 @@
+/* 
+Author: TfTHacker - more info  https://tfthacker.com/
+Date:   2023-11-30
+LICENSE: Copyright © 2023 TfThacker (https://tfthacker.com/)  You are granted a non-exclusive, non-transferable, 
+and non-sublicensable license to use and modify this file for your personal use only, and are prohibited from 
+distributing, sublicensing, or reselling. This file remain the property of TfTHacker, and any unauthorized 
+use or infringement will result in termination of this License. This file are provided "AS IS" without warranty of any kind, 
+and the Licensor shall not be liable for any damages arising from the use or distribution of this file. By using this file, 
+you acknowledge that you have read, understand, and agree to be bound by this License Agreement. 
+[helpUrl: Canvas Candy - Quick Reference|https://tfthacker.com/cc-qr]
+*/
+/* stylelint-disable color-function-notation */
+/* stylelint-disable no-descending-specificity */
+
+:root {
+  --cc-header-opacity-level: 0.2;
+  --cc-footers-opacity-level: 0.09;
+  --cc-label-width: 50px;
+  --cc-labels-opacity-level: 0.3;
+  --cc-gradient-start: 0.7;
+  --cc-gradient-end: 0.1;
+  --cc-dropshadow-color-theme-light: rgb(0, 0, 0, .25);
+  --cc-dropshadow-color-theme-dark: rgb(255, 255, 255, .25);
+}
+
+/* #region Globals */
+
+/* hack to fix bug with 1.4.x where frontmatter adds a small margin at top of page and cards */
+.canvas-node-content.markdown-embed div:has(> :is(.frontmatter, .language-yaml))+div> :first-child {
+  margin-top: 0;
+}
+
+/* Prevent scrollbars from appearing for cards */
+.canvas-node:not(.is-editing):has([data-callout^="cc-"], .cc-shape-circle, .cc-card-transparent, .cc-border-none, .cc-border-top, .cc-card-center, .cc-rotate-card-45) {
+
+  ::-webkit-scrollbar,
+  ::-webkit-scrollbar-horizontal {
+    display: none;
+  }
+}
+
+/* #endregion Globals */
+
+/* #region Header */
+
+.canvas-node:not(.is-editing):has([data-callout^="cc-header"]) {
+  .markdown-preview-view::before {
+    display: none;
+  }
+
+  [data-callout^="cc-header"] {
+    margin-left: calc(-1 * var(--size-4-6));
+    margin-right: calc(-1 * var(--size-4-9));
+    margin-bottom: 0;
+    background: unset;
+    background-color: rgba(var(--canvas-color), var(--cc-header-opacity-level));
+    border-width: 0px;
+    border-bottom: 2px solid rgba(var(--canvas-color));
+    border-radius: unset;
+
+    .callout-icon {
+      display: none;
+    }
+
+    .callout-title {
+      background: unset !important;
+      border: unset !important;
+      background-color: unset;
+      color: unset;
+      padding-left: 10px !important;
+      margin-top: unset;
+      font-variant-caps: unset;
+    }
+
+    .callout-title-inner {
+      font-weight: unset !important;
+    }
+
+    .callout-title-inner>* {
+      color: unset;
+    }
+
+    .callout-content {
+      background-color: unset;
+    }
+  }
+
+  [data-callout^="cc-header"]:has(.callout-content) {
+    padding-bottom: 0;
+  }
+
+  [data-callout="cc-header-noborder"] {
+    border-bottom: unset;
+  }
+}
+
+/* #endregion Header */
+
+/* #region Footer */
+
+.canvas-node:not(.is-editing):has([data-callout^="cc-footer"]) {
+  .markdown-preview-view {
+    min-height: 0;
+    padding-bottom: 0;
+  }
+
+  [data-callout^="cc-footer"] {
+    position: absolute;
+    bottom: 0;
+    margin-right: calc(-1 * var(--size-4-3));
+    left: 0;
+    right: 0;
+    z-index: 0;
+    background: unset;
+    background-color: rgba(var(--canvas-color), var(--cc-footers-opacity-level)) !important;
+    border: unset;
+    border-top: 2px solid rgba(var(--canvas-color));
+    border-radius: unset;
+
+    .callout-icon {
+      display: none;
+    }
+
+    .callout-title {
+      background: unset !important;
+      border: unset !important;
+      background-color: unset;
+      color: unset;
+      padding-bottom: 2px;
+      padding-right: 5px;
+      padding-left: 10px !important;
+      margin-top: unset;
+      font-variant-caps: unset;
+    }
+
+    .callout-title-inner {
+      margin: 0px;
+    }
+
+    .callout-title-inner * {
+      color: unset;
+      font-weight: unset !important;
+    }
+
+    .callout-content {
+      background-color: unset;
+      border: 0;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 5px;
+      padding-bottom: 5px !important;
+    }
+
+    .callout-content>* {
+      margin-top: 0px;
+    }
+  }
+
+  [data-callout^="cc-footer"]:has(.callout-content) {
+    padding-bottom: 0;
+  }
+
+  [data-callout="cc-footer-noborder"] {
+    border-top: unset;
+  }
+}
+
+/* #endregion Footer */
+
+/* #region Labels */
+
+.canvas-node:not(.is-editing) .markdown-preview-section {
+  [data-callout^="cc-label-left"] {
+    /* LEFT */
+    width: var(--cc-label-width) !important;
+    background: unset;
+    background-color: rgba(var(--canvas-color), var(--cc-labels-opacity-level)) !important;
+    border-right: 2px solid rgba(var(--canvas-color));
+    border-radius: unset;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    min-height: 100% !important;
+    padding: 0;
+
+    /* Center aligns the title */
+    display: flex;
+    justify-content: center;
+
+    .callout-icon {
+      display: none;
+    }
+
+    .callout-title {
+      background: unset;
+      color: unset;
+      align-items: center;
+      border: unset !important;
+      font-variant-caps: unset;
+    }
+
+    .callout-title-inner {
+      font-weight: unset;
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+    }
+  }
+
+  [data-callout^="cc-label-left-noborder"] {
+    border-right: unset;
+  }
+
+  [data-callout^="cc-label-right"] {
+    /* RIGHT */
+    width: var(--cc-label-width) !important;
+    background: unset;
+    background-color: rgba(var(--canvas-color), var(--cc-labels-opacity-level)) !important;
+    border-left: 2px solid rgba(var(--canvas-color));
+    border-radius: unset;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100% !important;
+    padding: 0;
+    margin: 0;
+    z-index: 9999;
+
+    /* Center aligns the title */
+    display: flex;
+    justify-content: center;
+
+    .callout-icon {
+      display: none;
+    }
+
+    .callout-title {
+      background: unset;
+      align-items: center;
+      border: unset !important;
+      background-color: unset;
+      color: unset;
+      font-variant-caps: unset;
+    }
+
+    .callout-title-inner {
+      font-weight: unset;
+      writing-mode: vertical-rl;
+    }
+  }
+
+  [data-callout^="cc-label-right-noborder"] {
+    border-left: unset;
+  }
+
+}
+
+.canvas-node:not(.is-editing) .markdown-preview-section:has([data-callout^="cc-label-left"]):not([data-callout^="cc-label-right"]) {
+  margin-left: var(--cc-label-width);
+  padding-right: calc(var(--cc-label-width) / 2) !important;
+}
+
+.canvas-node:not(.is-editing) .markdown-preview-section:has([data-callout^="cc-label-right"]):not([data-callout^="cc-label-left"]) {
+  padding-right: var(--cc-label-width) !important;
+}
+
+
+/* #endregion Labels */
+
+/* #region Card effects */
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-card-nocolor) {
+  .canvas-node-content {
+    background-color: unset !important;
+  }
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-card-transparent) {
+  background-color: transparent !important;
+
+  .canvas-node-content {
+    background: unset;
+    /* background-color: transparent !important; */
+  }
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-card-opaque) {
+  background-color: rgba(var(--canvas-color), 0.05) !important;
+
+  .canvas-node-content {
+    background-color: unset !important;
+    background-color: rgba(var(--canvas-color), 0.05) !important;
+  }
+}
+
+/* #endregion Card effects */
+
+/* #region Centering */
+
+/* Centers the content section of a card */
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-card-center) {
+  .markdown-preview-view {
+    display: grid;
+    place-items: center;
+  }
+
+
+  .markdown-preview-section {
+    /* Many of these settings are to improve compatibility with themes - so be careful to change them. */
+    min-height: unset;
+    width: unset;
+    max-width: unset;
+  }
+}
+
+/* Centers just a callout, no title, no color background */
+.canvas-node:not(.is-editing) .canvas-node-container:has([data-callout="cc-callout-center"]) {
+  [data-callout="cc-callout-center"] {
+    padding: 0;
+    margin: 0;
+    background-color: unset;
+    border-width: 0;
+    display: grid;
+    place-items: center;
+
+    .callout-title {
+      display: none;
+    }
+
+    .callout-content {
+      border: 0;
+    }
+
+
+  }
+}
+
+/* #endregion Centering */
+
+/* #region Shapes */
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-shape-circle) {
+  border-radius: 50% !important;
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-shape-parallelogram-left) {
+  transform: skew(30deg);
+
+  .markdown-preview-section {
+    transform: skew(-30deg);
+  }
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-shape-parallelogram-right) {
+  transform: skew(-30deg);
+
+  .markdown-preview-section {
+    transform: skew(30deg);
+  }
+}
+
+/* #endregion Shapes */
+
+/* #region Rotation */
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-rotate-card-45, .cc-rotate-text-45, .cc-rotate-text-90, .cc-rotate-text-135, .cc-rotate-text-180, .cc-rotate-text-225, .cc-rotate-text-270, .cc-rotate-text-315, .cc-rotate-text-360) {
+  .markdown-preview-view::before {
+    display: none;
+  }
+
+  .markdown-preview-view::after {
+    display: none;
+  }
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-rotate-card-45) {
+  transform: rotate(-45deg);
+
+  .markdown-preview-section {
+    transform: rotate(45deg);
+  }
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-rotate-text-45) .markdown-preview-section {
+  transform: rotate(45deg);
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-rotate-text-90) .markdown-preview-section {
+  transform: rotate(90deg);
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-rotate-text-135) .markdown-preview-section {
+  transform: rotate(135deg);
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-rotate-text-180) .markdown-preview-section {
+  transform: rotate(180deg);
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-rotate-text-225) .markdown-preview-section {
+  transform: rotate(225deg);
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-rotate-text-270) .markdown-preview-section {
+  transform: rotate(270deg);
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-rotate-text-315) .markdown-preview-section {
+  transform: rotate(315deg);
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-rotate-text-360) .markdown-preview-section {
+  transform: rotate(360deg);
+}
+
+/* #endregion Rotation */
+
+/* #region Fill */
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-card-fill) {
+  background-color: rgba(var(--canvas-color));
+  ;
+  box-shadow: unset;
+}
+
+/* #endregion Fill */
+
+/* #region Gradiants */
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-card-gradient-0deg) {
+  background: var(--canvas-background) !important;
+
+  .markdown-preview-view {
+    background: linear-gradient(0deg, rgba(var(--canvas-color), var(--cc-gradient-start)), rgba(var(--canvas-color), var(--cc-gradient-end)));
+  }
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-card-gradient-45deg) {
+  background: var(--canvas-background) !important;
+
+  .markdown-preview-view {
+    background: linear-gradient(45deg, rgba(var(--canvas-color), var(--cc-gradient-start)), rgba(var(--canvas-color), var(--cc-gradient-end)));
+  }
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-card-gradient-90deg) {
+  background: var(--canvas-background) !important;
+
+  .markdown-preview-view {
+    background: linear-gradient(90deg, rgba(var(--canvas-color), var(--cc-gradient-start)), rgba(var(--canvas-color), var(--cc-gradient-end)));
+  }
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-card-gradient-135deg) {
+  background: var(--canvas-background) !important;
+
+  .markdown-preview-view {
+    background: linear-gradient(135deg, rgba(var(--canvas-color), var(--cc-gradient-start)), rgba(var(--canvas-color), var(--cc-gradient-end)));
+  }
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-card-gradient-180deg) {
+  background: var(--canvas-background) !important;
+
+  .markdown-preview-view {
+    background: linear-gradient(180deg, rgba(var(--canvas-color), var(--cc-gradient-start)), rgba(var(--canvas-color), var(--cc-gradient-end)));
+  }
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-card-gradient-225deg) {
+  background: var(--canvas-background) !important;
+
+  .markdown-preview-view {
+    background: linear-gradient(225deg, rgba(var(--canvas-color), var(--cc-gradient-start)), rgba(var(--canvas-color), var(--cc-gradient-end)));
+  }
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-card-gradient-270deg) {
+  background: var(--canvas-background) !important;
+
+  .markdown-preview-view {
+    background: linear-gradient(270deg, rgba(var(--canvas-color), var(--cc-gradient-start)), rgba(var(--canvas-color), var(--cc-gradient-end)));
+  }
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-card-gradient-315deg) {
+  background: var(--canvas-background) !important;
+
+  .markdown-preview-view {
+    background: linear-gradient(315deg, rgba(var(--canvas-color), var(--cc-gradient-start)), rgba(var(--canvas-color), var(--cc-gradient-end)));
+  }
+}
+
+/* #endregion Gradiants */
+
+/* #region Card Borders */
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-border-left, .cc-border-right, .cc-border-top, .cc-border-bottom) {
+  border-radius: 0;
+  box-shadow: none;
+  border-color: rgba(var(--canvas-color));
+  border: var(--border-width) solid rgba(var(--canvas-color));
+
+  &:not(:has(.cc-border-left)) {
+    border-left: unset;
+  }
+
+  &:not(:has(.cc-border-right)) {
+    border-right: unset;
+  }
+
+  &:not(:has(.cc-border-top)) {
+    border-top: unset;
+  }
+
+  &:not(:has(.cc-border-bottom)) {
+    border-bottom: unset;
+  }
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-border-none) {
+  border: unset;
+  box-shadow: unset;
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-border-rounded) {
+  border-radius: 90px !important;
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-border-squared) {
+  border-radius: 0 !important;
+  border-color: rgba(var(--canvas-color));
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-border-dotted) {
+  border-style: dotted;
+  box-shadow: unset;
+  border-width: 3px;
+  border-color: rgba(var(--canvas-color));
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-border-dashed) {
+  border-style: dashed;
+  box-shadow: unset;
+  border-width: 3px;
+  border-color: rgba(var(--canvas-color));
+}
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-border-double) {
+  border-style: double;
+  box-shadow: unset;
+  border-width: 5px;
+  border-color: rgba(var(--canvas-color));
+}
+
+/* Drop Shadow */
+
+.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-border-dropshadow) {
+  backdrop-filter: blur(15px) !important;
+}
+
+.theme-light .canvas-node:not(.is-editing) .canvas-node-container:has(.cc-border-dropshadow) {
+  box-shadow: 1px 12px 24px var(--cc-dropshadow-color-theme-light) !important;
+
+}
+
+.theme-dark .canvas-node:not(.is-editing) .canvas-node-container:has(.cc-border-dropshadow) {
+  box-shadow: 1px 12px 24px var(--cc-dropshadow-color-theme-dark) !important;
+}
+
+
+
+
+/* #endregion Card Borders */
+
+/* #region Sticker */
+
+/* If an image dropped into the canvas contains the text -image-border-none its border will be removed */
+.canvas-node:not(.is-editing):has(img[src*="-cc-image"]) {
+
+  /* stylelint-disable-next-line no-descending-specificity */
+  .canvas-node-container {
+    border: unset;
+    border-radius: 0 !important;
+    box-shadow: unset;
+    background-color: transparent !important;
+
+    .canvas-node-content {
+      background-color: transparent !important;
+    }
+
+    .canvas-node-content img {
+      margin: unset;
+      max-width: 100%;
+    }
+  }
+
+  .canvas-node-label {
+    display: none;
+  }
+}
+
+/* #endregion Sticker */
+
+/* #region Image Callouts */
+/* stylelint-disable-next-line no-descending-specificity */
+.canvas-node:not(.is-editing):has([data-callout^="cc-image"]) {
+  [data-callout^="cc-image"] {
+    background-color: unset !important;
+    border-color: unset !important;
+    border-width: 0;
+    padding: 0;
+    margin: 0;
+
+    .callout-icon {
+      display: none;
+    }
+
+    .callout-title {
+      background-color: transparent;
+    }
+
+    .callout-title img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      inset: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      z-index: -1 !important;
+    }
+  }
+
+}
+
+.canvas-node:not(.is-editing):has([data-callout="cc-image-clip"]) {
+  .callout-title img {
+    object-fit: clip;
+  }
+}
+
+.canvas-node:not(.is-editing):has([data-callout="cc-image-cover"]) {
+  .callout-title img {
+    object-fit: cover;
+    max-width: 100% !important;
+  }
+}
+
+/* #endregion Image Callouts */
+
+
+/* #region Handle hsla colored themes */
+:is(.prism-theme) .canvas-node {
+
+  .canvas-node-container:has(.cc-border-dotted, .cc-border-dashed, .cc-border-double, .cc-border-squared, .cc-border-top, .cc-border-right, .cc-border-bottom, .cc-border-left) {
+    /* border-color: hsla(var(--canvas-color)); */
+    border: 1px solid hsla(var(--canvas-color));
+  }
+
+  &:not(.is-editing) .canvas-node-container:has(.cc-card-fill) {
+    background-color: hsla(var(--canvas-color));
+    ;
+  }
+
+  &:not(.is-editing) .canvas-node-container:has(.cc-card-opaque) {
+    background-color: hsla(var(--canvas-color), 0.3) !important;
+  }
+
+  &:not(.is-editing):has([data-callout^="cc-header"]) .callout {
+    border-color: hsla(var(--canvas-color));
+    background-color: hsla(var(--canvas-color), var(--cc-header-opacity-level)) !important;
+  }
+
+  &:has([data-callout="cc-header-noborder"]) .callout {
+    border-bottom: unset !important;
+  }
+
+  &:not(.is-editing):has([data-callout^="cc-footer"]) .callout {
+    background-color: hsla(var(--canvas-color), var(--cc-header-opacity-level)) !important;
+    border-top: 2px solid hsla(var(--canvas-color));
+  }
+
+  &:has([data-callout="cc-footer-noborder"]) .callout {
+    border-top: unset !important;
+  }
+
+  &:not(.is-editing):has([data-callout^="cc-label-left"]) .callout {
+    background-color: hsla(var(--canvas-color), var(--cc-header-opacity-level)) !important;
+    border-right: 2px solid hsla(var(--canvas-color));
+  }
+
+  &:has([data-callout="cc-label-left-noborder"]) .callout {
+    border-right: unset !important;
+  }
+
+  &:not(.is-editing):has([data-callout^="cc-label-right"]) .callout {
+    background-color: hsla(var(--canvas-color), var(--cc-header-opacity-level)) !important;
+    border-left: 2px solid hsla(var(--canvas-color));
+  }
+
+  &:has([data-callout="cc-label-right-noborder"]) .callout {
+    border-left: unset !important;
+  }
+
+
+  &:not(.is-editing) .canvas-node-container:has(.cc-card-gradient-0deg) .markdown-preview-view {
+    background: linear-gradient(0deg, hsla(var(--canvas-color), var(--cc-gradient-start)), hsla(var(--canvas-color), var(--cc-gradient-end)));
+  }
+
+  &:not(.is-editing) .canvas-node-container:has(.cc-card-gradient-45deg) .markdown-preview-view {
+    background: linear-gradient(45deg, hsla(var(--canvas-color), var(--cc-gradient-start)), hsla(var(--canvas-color), var(--cc-gradient-end)));
+  }
+
+  &:not(.is-editing) .canvas-node-container:has(.cc-card-gradient-90deg) .markdown-preview-view {
+    background: linear-gradient(90deg, hsla(var(--canvas-color), var(--cc-gradient-start)), hsla(var(--canvas-color), var(--cc-gradient-end)));
+  }
+
+  &:not(.is-editing) .canvas-node-container:has(.cc-card-gradient-135deg) .markdown-preview-view {
+    background: linear-gradient(135deg, hsla(var(--canvas-color), var(--cc-gradient-start)), hsla(var(--canvas-color), var(--cc-gradient-end)));
+  }
+
+  &:not(.is-editing) .canvas-node-container:has(.cc-card-gradient-180deg) .markdown-preview-view {
+    background: linear-gradient(180deg, hsla(var(--canvas-color), var(--cc-gradient-start)), hsla(var(--canvas-color), var(--cc-gradient-end)));
+  }
+
+  &:not(.is-editing) .canvas-node-container:has(.cc-card-gradient-225deg) .markdown-preview-view {
+    background: linear-gradient(225deg, hsla(var(--canvas-color), var(--cc-gradient-start)), hsla(var(--canvas-color), var(--cc-gradient-end)));
+  }
+
+  &:not(.is-editing) .canvas-node-container:has(.cc-card-gradient-270deg) .markdown-preview-view {
+    background: linear-gradient(270deg, hsla(var(--canvas-color), var(--cc-gradient-start)), hsla(var(--canvas-color), var(--cc-gradient-end)));
+  }
+
+  &:not(.is-editing) .canvas-node-container:has(.cc-card-gradient-315deg) .markdown-preview-view {
+    background: linear-gradient(315deg, hsla(var(--canvas-color), var(--cc-gradient-start)), hsla(var(--canvas-color), var(--cc-gradient-end)));
+  }
+
+}
+
+/* #endregion Handle hsla colored themes */
+
+/* @settings
+
+name: Canvas Candy
+id: tft-canvas-headers-footers
+settings:
+  - 
+    id: my-info-text
+    title: Information
+    description: More info - https://tfthacker.com/canvas-candy
+    type: info-text
+    markdown: true
+  - 
+    id: cc-group-headerefooters
+    title: Headers and Footers
+    type: heading
+    level: 1
+    collapsed: false
+  -
+    id: cc-header-opacity-level
+    title: Background color opacity level from 0.01 to 1.0 for headers
+    type: variable-number
+    default: 0.2
+  -
+    id: cc-footers-opacity-level
+    title: Background color opacity level from 0.01 to 1.0 for footers
+    type: variable-number
+    default: 0.09
+  - 
+    id: cc-group-Labels
+    title: Labels
+    type: heading
+    level: 1
+    collapsed: false    
+  -
+    id: cc-labels-opacity-level
+    title: Background color opacity level from 0.01 to 1.0 for labels
+    type: variable-number
+    default: 0.3
+  -
+    id: cc-label-width
+    title: Width of labels 
+    type: variable-number
+    default: 50
+    format: px
+  - 
+    id: cc-group-gradiants
+    title: Gradients
+    type: heading
+    level: 1
+    collapsed: false    
+  -
+    id: cc-gradient-start
+    title: Starting opacity for a gradient decoration
+    type: variable-number
+    default: 0.7
+  -
+    id: cc-gradient-end
+    title: Ending opacity for a gradient decoration 
+    type: variable-number
+    default: 0.1  
+  - 
+    id: cc-group-dropshadow
+    title: Dropshadow
+    type: heading
+    level: 1
+    collapsed: false    
+  -
+    id: cc-dropshadow-color-theme-light
+    title: Dropshadow color for light themes 
+    type: variable-color
+    format: rgb  
+    opacity: true
+    default: rgb(0, 0, 0, .25)
+  -
+    id: cc-dropshadow-color-theme-dark
+    title: Dropshadow color for dark themes 
+    type: variable-color
+    format: rgb  
+    opacity: true
+    default: rgb(255, 255, 255, .25)
+
+
+*/

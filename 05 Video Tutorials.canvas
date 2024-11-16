@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"865c53ddc01e9c26","type":"group","x":-1000,"y":-1780,"width":2180,"height":540,"color":"2","label":"Using Canvas Candy"},
+		{"id":"11600e45203e5d7a","type":"group","x":-1000,"y":-420,"width":1440,"height":540,"color":"6","label":"Installing and Configuration"},
+		{"id":"ac4fd1e43a931e2c","type":"group","x":-1000,"y":-1080,"width":1440,"height":520,"color":"3","label":"Troubleshooting odd issues"},
+		{"id":"d0e3ac366b346a62","type":"text","text":"> [!cc-header] Understanding how to bring cards in Obsidian Canvas to the foreground\n\n![](https://youtu.be/8r9cMrBZR-8)\n\n[Watch at YouTube](https://youtu.be/8r9cMrBZR-8)","x":-240,"y":-1060,"width":660,"height":480,"color":"3"},
+		{"id":"36cca484c69c60f4","type":"text","text":"> [!cc-header] Not all themes are fully compatible with Canvas Candy\n\n![](https://youtu.be/1CHqvgazEPk)\n\n[Watch at YouTube](https://youtu.be/1CHqvgazEPk)","x":-980,"y":-1060,"width":660,"height":480,"color":"3"},
+		{"id":"91f93a27a34a032f","type":"text","text":"> [!cc-header] Installing Canvas Candy into your vault - Install the CSS Snippet\n\n![](https://youtu.be/X5qki-H2d90)\n\n[Watch at YouTube](https://youtu.be/X5qki-H2d90)","x":-980,"y":-400,"width":660,"height":500,"color":"6"},
+		{"id":"a38f093bb3540b63","type":"text","text":"> [!cc-header] Using the Style Settings Plugin with Canvas Candy\n\n![](https://youtu.be/265v8kSVTfc)\n\n[Watch at YouTube](https://youtu.be/265v8kSVTfc)","x":-240,"y":-400,"width":660,"height":500,"color":"6"},
+		{"id":"f0645fc204ef89d0","type":"text","text":"> [!cc-header] Learning to use Canvas Candy\n\n![](https://youtu.be/O01MZ4IGsUY)\n\n[Watch at YouTube](https://youtu.be/O01MZ4IGsUY)","x":-980,"y":-1760,"width":660,"height":500,"color":"2"},
+		{"id":"0a1baf3fc1bffe50","type":"text","text":"> [!cc-header] Using the Canvas Candy stencils to speed up creating drawings\n\n![](https://youtu.be/ZCII2oM2Aok)\n\n[Watch at YouTube](https://youtu.be/ZCII2oM2Aok)","x":500,"y":-1760,"width":660,"height":500,"color":"2"},
+		{"id":"c79f08d1592c93e7","type":"text","text":"> [!cc-header] Making Stickers\n\n![](https://youtu.be/_OAxz2t_OMQ?si=8nahFgE_W4cayHaK)\n\n[Watch at YouTube](https://youtu.be/_OAxz2t_OMQ?si=8nahFgE_W4cayHaK)","x":-240,"y":-1760,"width":660,"height":500,"color":"2"}
+	],
+	"edges":[]
+}

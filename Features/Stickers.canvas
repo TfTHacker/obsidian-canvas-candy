@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\n# Canvas Candy - Stickers\n#### Sweet decorations for Canvas in Obsidian","id":"e7297b28d975a6a6","x":-1140,"y":-365,"width":891,"height":120},
+		{"type":"text","text":"","id":"eedbadc5371e64c2","x":-1140,"y":-248,"width":1268,"height":6,"color":"3"},
+		{"type":"text","text":"","id":"bf848a6fae1c13b3","x":-1140,"y":-390,"width":1400,"height":6,"color":"3"},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\n# Make your own stickers","id":"9fa83c973dd265da","x":-1122,"y":-210,"width":718,"height":71},
+		{"type":"text","text":"","id":"65b76112893a6262","x":-1114,"y":-156,"width":1308,"height":6,"color":"#151414"},
+		{"id":"dd1450cd805e8ce4","type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\n![](https://youtu.be/_OAxz2t_OMQ?si=8nahFgE_W4cayHaK)\n\n[Watch at YouTube](https://youtu.be/_OAxz2t_OMQ?si=8nahFgE_W4cayHaK)","x":-420,"y":-120,"width":665,"height":559,"color":"3"},
+		{"id":"9867d52bb5b92680","type":"file","file":"Stencils/media/Stickers/rocket-cc-image.svg","x":105,"y":-396,"width":190,"height":182},
+		{"id":"83593242ef1fbf9c","type":"file","file":"Samples/media/stickers/teacher-cc-image.svg","x":-785,"y":439,"width":243,"height":400},
+		{"id":"a69d5690209f1bfd","type":"file","file":"Stencils/media/Stickers/speech-cc-image.svg","x":-1180,"y":-156,"width":720,"height":720},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\n#### Description\nStickers are image files with transparent backgrounds that have the text **cc-image** in their file name. This feature has been tested with SVG and PNG files\n\nTo learn how to make your own stickers, watch the video to the right.\n\n**File name**:\n- Include in the file name the text **cc-image**","id":"f21ebc3791d4a7ed","x":-1042,"y":-34,"width":444,"height":387}
+	],
+	"edges":[]
+}

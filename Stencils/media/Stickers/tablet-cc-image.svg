@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="c" x="-.0030728" y="-.0043455" width="1.0061" height="1.0087" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.81846403"/>
+  </filter>
+  <filter id="d" x="-.073032" y="-.070997" width="1.1461" height="1.142" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.33344032"/>
+  </filter>
+ </defs>
+ <g transform="translate(0 -572.36)">
+  <rect transform="rotate(90)" x="652.34" y="-428.31" width="297.21" height="216.61" rx="0" ry="0" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="5.4" stroke-width="50"/>
+  <rect transform="matrix(0 .46877 -.54802 0 765.68 643.92)" x="-6.4302" y="593.85" width="646.06" height="438.82" rx="29.737" ry="27.649" fill="#fff" filter="url(#c)"/>
+  <ellipse cx="320" cy="960.29" rx="5.4788" ry="5.6359" fill="#fff" filter="url(#d)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="5.4" stroke-width=".5"/>
+ </g>
+</svg>

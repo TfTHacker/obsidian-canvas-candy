@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"4643aeea345bc43a","type":"file","file":"Samples/media/sample notes/diabetes/What is type 1.md","x":-500,"y":200,"width":400,"height":335,"color":"2"},
+		{"id":"c3d853e43a7ccb2d","type":"file","file":"Samples/media/sample notes/diabetes/Type 1 treatment.md","x":580,"y":200,"width":500,"height":335,"color":"2"},
+		{"id":"5ce637e7fcb0f3b8","type":"file","file":"Samples/media/sample notes/diabetes/Type 1 symptoms.md","x":-40,"y":200,"width":560,"height":335,"color":"2"},
+		{"id":"9025b2bb8406dc6b","type":"file","file":"Samples/media/sample notes/diabetes/What is type 2.md","x":-500,"y":600,"width":400,"height":335,"color":"3"},
+		{"id":"d2d8946dc7780cd9","type":"file","file":"Samples/media/sample notes/diabetes/Type 2 symptoms.md","x":-40,"y":600,"width":560,"height":335,"color":"3"},
+		{"id":"706e49e4b384bea3","type":"file","file":"Samples/media/sample notes/diabetes/Type 2 treatment.md","x":603,"y":600,"width":477,"height":335,"color":"3"},
+		{"id":"8bc0141aff5ce6d1","type":"text","text":"---\ncssclasses: cc-card-center, cc-border-none\n---\n\n# Overview\n","x":-1080,"y":80,"width":2160,"height":80,"color":"4"},
+		{"id":"a64069b566ea7cf2","type":"text","text":"---\ncssclasses: cc-card-center, cc-border-none\n---\n\n# Online Resources\n","x":-1076,"y":1000,"width":2160,"height":50,"color":"5"},
+		{"id":"c614d9ff767fb302","type":"text","text":"---\ncssclasses: cc-card-center, cc-border-none\n---\n\n![](https://youtu.be/B-RZaLJaYxw)\n\n>[!cc-footer-noborder] What is diabetes?","x":-1076,"y":1080,"width":576,"height":460,"color":"5"},
+		{"id":"156f7a41fab34e86","type":"text","text":"---\ncssclasses: cc-card-center, cc-border-none\n---\n\n![](https://youtu.be/C3AQIfgthh4)\n\n>[!cc-footer-noborder] What is type 1?","x":-440,"y":1080,"width":576,"height":460,"color":"5"},
+		{"id":"a6d0aad3394865c6","type":"text","text":"---\ncssclasses: cc-card-center, cc-border-none\n---\n\n![](https://youtu.be/4SZGM_E5cLI)\n\n>[!cc-footer-noborder] What is type 2?","x":200,"y":1080,"width":576,"height":460,"color":"5"},
+		{"id":"2e6c3469ed068006","type":"file","file":"Samples/media/sample notes/diabetes/What is Diabetes.md","x":-1076,"y":260,"width":436,"height":470,"color":"4"},
+		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\n**NOTE: ** Please note that all information was generated with gpt4 and may not be accurate. The goal of this example is to demonstrate using decorations inside markdown files that are added to a canvas as a card.\n","id":"c3aa12ff22471529","x":-1076,"y":730,"width":436,"height":200},
+		{"id":"8a836f1b09c2198e","type":"text","text":"---\ncssclasses: cc-border-none, \n---\n\n>[!cc-header-noborder] more reading\n\n\n- [Wikipedia](https://en.wikipedia.org/wiki/Diabetes)\n- [Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/diabetes/symptoms-causes/syc-20371444)\n- [WHO](https://www.who.int/news-room/fact-sheets/detail/diabetes)","x":820,"y":1080,"width":264,"height":260},
+		{"id":"3525fa8b1e1c69cb","type":"text","text":"---\ncssclasses: cc-border-none\n---\n\n**NOTE:** All of these overview cards are note files in the vault, but embedded in the card","x":826,"y":1380,"width":254,"height":160,"color":"1"}
+	],
+	"edges":[
+		{"id":"f3e141caa285cc14","fromNode":"2e6c3469ed068006","fromSide":"right","toNode":"4643aeea345bc43a","toSide":"left","toEnd":"none"},
+		{"id":"106cb64014f3fbf0","fromNode":"4643aeea345bc43a","fromSide":"right","toNode":"5ce637e7fcb0f3b8","toSide":"left"},
+		{"id":"eb526aae9dc69ebd","fromNode":"5ce637e7fcb0f3b8","fromSide":"right","toNode":"c3d853e43a7ccb2d","toSide":"left"},
+		{"id":"343ca127b3bbcf40","fromNode":"d2d8946dc7780cd9","fromSide":"right","toNode":"706e49e4b384bea3","toSide":"left"},
+		{"id":"b4d244487fc34562","fromNode":"2e6c3469ed068006","fromSide":"right","toNode":"9025b2bb8406dc6b","toSide":"left","toEnd":"none"},
+		{"id":"8f14f1c53766b13c","fromNode":"9025b2bb8406dc6b","fromSide":"right","toNode":"d2d8946dc7780cd9","toSide":"left"}
+	]
+}

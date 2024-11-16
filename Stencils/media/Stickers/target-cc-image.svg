@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 3000 2000" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(0 947.64)">
+  <g transform="matrix(6.6511 0 0 6.6511 -6353.9 -295.9)">
+   <circle cx="1172.9" cy="56.731" r="109.75" fill="#f00"/>
+   <circle cx="1172.9" cy="56.731" r="86.286" fill="#fff"/>
+   <circle cx="1172.9" cy="56.731" r="59.41" fill="#f00"/>
+   <circle cx="1172.9" cy="56.731" r="31.12" fill="#fff"/>
+   <circle cx="1172.9" cy="56.731" r="11.316" fill="#1a1a1a"/>
+   <rect transform="matrix(.72964 .68383 -.72964 .68383 0 0)" x="844.86" y="-888.87" width="7.3168" height="121.64" fill="#fff"/>
+   <g transform="matrix(.71625 .6759 -.71625 .6759 -535.86 -1805.8)" fill="#f00">
+    <rect transform="matrix(.7348 -.67828 0 1 0 0)" x="3498.2" y="2407.1" width="17.692" height="29.5"/>
+    <rect transform="matrix(-.7348 -.67828 0 1 0 0)" x="-3498.9" y="-2338.9" width="17.692" height="29.5"/>
+   </g>
+   <rect transform="matrix(.72639 .68728 -.72639 .68728 0 0)" x="844.66" y="-918.54" width="9.1494" height="152.11" fill="#1a1a1a"/>
+  </g>
+ </g>
+</svg>
