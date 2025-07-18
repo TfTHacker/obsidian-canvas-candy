@@ -554,9 +554,7 @@ you acknowledge that you have read, understand, and agree to be bound by this Li
 
 /* Drop Shadow */
 
-.canvas-node:not(.is-editing) .canvas-node-container:has(.cc-border-dropshadow) {
-  backdrop-filter: blur(15px) !important;
-}
+
 
 .theme-light .canvas-node:not(.is-editing) .canvas-node-container:has(.cc-border-dropshadow) {
   box-shadow: 1px 12px 24px var(--cc-dropshadow-color-theme-light) !important;
