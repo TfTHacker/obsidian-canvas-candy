@@ -1,5 +1,6 @@
 ---
-cssclasses: cc-border-none
+cssclasses:
+  - cc-border-none
 ---
 
 > [!cc-label-left] Symptoms

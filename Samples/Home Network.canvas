@@ -2,23 +2,23 @@
 	"nodes":[
 		{"id":"465298cafb490b2d","type":"file","file":"Samples/media/home-netowrk/cloud-cc-image.svg","x":-260,"y":-614,"width":152,"height":127},
 		{"id":"138ad21fe0005ca1","type":"file","file":"Samples/media/home-netowrk/internet-provider-cc-image.svg","x":-260,"y":-394,"width":151,"height":34},
-		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\n### Wifi Router","id":"7c365b07d41a0e81","x":587,"y":-260,"width":214,"height":50},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-border-none\n  - cc-card-transparent\n---\n\n### Wifi Router","id":"7c365b07d41a0e81","x":587,"y":-260,"width":214,"height":50},
 		{"id":"4824da69e0b8b8e7","type":"file","file":"Samples/media/home-netowrk/wireless-router-cc-image.svg","x":577,"y":-210,"width":167,"height":125},
 		{"id":"c4f88120667444b4","type":"file","file":"Samples/media/home-netowrk/game-console-cc-image.svg","x":391,"y":45,"width":122,"height":120},
 		{"id":"3b00151022f85b28","type":"file","file":"Samples/media/home-netowrk/phone-cc-image.svg","x":801,"y":-13,"width":69,"height":98},
 		{"id":"619de9d1af4286e5","type":"file","file":"Samples/media/home-netowrk/tablet-cc-image.svg","x":616,"y":45,"width":165,"height":233},
 		{"id":"e4f0ec5ef17f48cd","type":"file","file":"Samples/media/home-netowrk/firewall-cc-image.svg","x":23,"y":-481,"width":141,"height":209},
 		{"id":"78cfea7451003d42","type":"file","file":"Samples/media/home-netowrk/switch-cc-image.svg","x":296,"y":-402,"width":231,"height":50},
-		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\n### Switch","id":"89642cd9a680e308","x":412,"y":-360,"width":178,"height":50},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-border-none\n  - cc-card-transparent\n---\n\n### Switch","id":"89642cd9a680e308","x":412,"y":-360,"width":178,"height":50},
 		{"id":"1f1b84d55f6c729f","type":"file","file":"Samples/media/home-netowrk/imac-cc-image.svg","x":434,"y":-702,"width":156,"height":114},
 		{"id":"704cd4d59ec8ef3a","type":"file","file":"Samples/media/home-netowrk/printer-cc-image.svg","x":763,"y":-578,"width":114,"height":97},
 		{"id":"91dd64412896698b","type":"file","file":"Samples/media/home-netowrk/tv-cc-image.svg","x":784,"y":-406,"width":156,"height":121},
 		{"id":"04f741c261e594e0","type":"file","file":"Samples/media/home-netowrk/kids-cc-image.svg","x":153,"y":-739,"width":155,"height":119},
-		{"id":"3fca4daaaf6d572a","type":"text","text":"---\ncssclasses: cc-card-gradient-0deg, cc-border-none, cc-border-squared\n---\n\n##### AC3200 tri-band wireless router\nThe heart of my system is my AC3200 tri-band wireless router which can broadcast three strong wifi signals to handle all our devices. ","x":900,"y":-233,"width":180,"height":373},
-		{"id":"a698a7ce3be00ec3","type":"text","text":"---\ncssclasses: cc-card-gradient-0deg, cc-border-none, cc-border-squared\n---\n\n##### Fast and Secure\n\nHaving a fast and secure home network is crucial for my family since we rely on the internet for work, school, and entertainment. My home network starts with a cable modem that connects to my internet service provider.","x":-279,"y":-260,"width":302,"height":247,"color":"1"},
+		{"id":"3fca4daaaf6d572a","type":"text","text":"---\ncssclasses:\n  - cc-card-gradient-0deg\n  - cc-border-none\n  - cc-border-squared\n---\n\n##### AC3200 tri-band wireless router\nThe heart of my system is my AC3200 tri-band wireless router which can broadcast three strong wifi signals to handle all our devices. ","x":900,"y":-233,"width":180,"height":373},
+		{"id":"a698a7ce3be00ec3","type":"text","text":"---\ncssclasses:\n  - cc-card-gradient-0deg\n  - cc-border-none\n  - cc-border-squared\n---\n\n##### Fast and Secure\n\nHaving a fast and secure home network is crucial for my family since we rely on the internet for work, school, and entertainment. My home network starts with a cable modem that connects to my internet service provider.","x":-279,"y":-260,"width":302,"height":247,"color":"1"},
 		{"id":"6463da20315eb17e","type":"file","file":"Samples/media/home-netowrk/fhn-cc-image.svg","x":5,"y":-920,"width":796,"height":93},
 		{"id":"5481d326de5a649b","type":"file","file":"Samples/media/home-netowrk/repater-cc-image.svg","x":153,"y":-173,"width":90,"height":127},
-		{"id":"034ff976885334da","type":"text","text":"---\ncssclasses: cc-card-gradient-0deg, cc-border-none, cc-border-squared\n---\n##### 8-port gigabit ethernet\n\nMy 8-port gigabit ethernet switch has also been a worthwhile investment. I have it connected to one of the router's LAN ports so I can run ethernet cables from the switch to devices in other rooms like my home office.\n","x":-200,"y":53,"width":537,"height":175}
+		{"id":"034ff976885334da","type":"text","text":"---\ncssclasses:\n  - cc-card-gradient-0deg\n  - cc-border-none\n  - cc-border-squared\n---\n##### 8-port gigabit ethernet\n\nMy 8-port gigabit ethernet switch has also been a worthwhile investment. I have it connected to one of the router's LAN ports so I can run ethernet cables from the switch to devices in other rooms like my home office.\n","x":-200,"y":53,"width":537,"height":175}
 	],
 	"edges":[
 		{"id":"7a5850ea6042e7e2","fromNode":"465298cafb490b2d","fromSide":"bottom","toNode":"138ad21fe0005ca1","toSide":"top","fromEnd":"arrow","color":"1"},

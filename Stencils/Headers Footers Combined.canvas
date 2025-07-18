@@ -2,8 +2,8 @@
 	"nodes":[
 		{"type":"text","text":">[!cc-header-noborder] Header\n\n\n**callouts:**\n```\n>[!cc-header-noborder]\n>[!cc-footer-noborder]\n```\n\n\n>[!cc-footer-noborder] footer","id":"02c35c4f39ef8b38","x":-340,"y":320,"width":360,"height":260,"color":"3"},
 		{"type":"text","text":">[!cc-header] Header\n\n\n**Callouts:**\n```\n>[!cc-header]\n>[!cc-footer]\n```\n\n\n>[!cc-footer] footer","id":"b92b2c5fbd09a3d5","x":-740,"y":320,"width":360,"height":260,"color":"3"},
-		{"type":"text","text":"---\ncssclasses: cc-card-nocolor\n---\n\n>[!cc-header-noborder] Header\n\n**Callouts**\n```\n>[!cc-header-noborder]\n>[!cc-footer-noborder]\n```\n\n**cssclasses**\n- cc-card-nocolor\n\n>[!cc-footer-noborder] footer","id":"e478e0da99207a49","x":-740,"y":630,"width":360,"height":390,"color":"3"},
-		{"type":"text","text":"---\ncssclasses: cc-card-nocolor, cc-border-none\n---\n\n>[!cc-header-noborder] Header\n\n**Callouts**\n```\n>[!cc-header-noborder]\n>[!cc-footer-noborder]\n```\n\n**cssclasses**\n- cc-card-nocolor\n- cc-border-none\n\n>[!cc-footer-noborder] footer","id":"cac2b357b22b167c","x":-340,"y":630,"width":360,"height":390,"color":"3"},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-card-nocolor\n---\n\n>[!cc-header-noborder] Header\n\n**Callouts**\n```\n>[!cc-header-noborder]\n>[!cc-footer-noborder]\n```\n\n**cssclasses**\n- cc-card-nocolor\n\n>[!cc-footer-noborder] footer","id":"e478e0da99207a49","x":-740,"y":630,"width":360,"height":390,"color":"3"},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-card-nocolor\n  - cc-border-none\n---\n\n>[!cc-header-noborder] Header\n\n**Callouts**\n```\n>[!cc-header-noborder]\n>[!cc-footer-noborder]\n```\n\n**cssclasses**\n- cc-card-nocolor\n- cc-border-none\n\n>[!cc-footer-noborder] footer","id":"cac2b357b22b167c","x":-340,"y":630,"width":360,"height":390,"color":"3"},
 		{"id":"1cc44c23128476a8","type":"text","text":"![[02 Stencil Index]]\n\n","x":-760,"y":1040,"width":340,"height":500}
 	],
 	"edges":[]

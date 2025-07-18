@@ -2,17 +2,17 @@
 	"nodes":[
 		{"id":"f503a5f676d7d8a4","type":"group","x":-740,"y":180,"width":670,"height":620,"color":"#f5b8b8","label":"followup"},
 		{"id":"fe0d7f922d284c11","type":"group","x":120,"y":180,"width":420,"height":360,"color":"3","label":"finalize"},
-		{"type":"text","text":"---\ncssclasses: cc-shape-parallelogram-right, cc-card-center\n---\n\nReceive\nInvoice\n","id":"af6d364d5023c946","x":-107,"y":-300,"width":135,"height":87,"color":"3"},
-		{"type":"text","text":"---\ncssclasses: cc-border-rounded, cc-card-center, cc-card-gradient-0deg\n---\n\n**Start** ","id":"fba928a8f2a8f94a","x":-149,"y":-440,"width":220,"height":60,"color":"4"},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-shape-parallelogram-right\n  - cc-card-center\n---\n\nReceive\nInvoice\n","id":"af6d364d5023c946","x":-107,"y":-300,"width":135,"height":87,"color":"3"},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-border-rounded\n  - cc-card-center\n  - cc-card-gradient-0deg\n---\n\n**Start** ","id":"fba928a8f2a8f94a","x":-149,"y":-440,"width":220,"height":60,"color":"4"},
 		{"id":"06b749bbe56eeb43","type":"text","text":"Enter invoice number on calendar with 30 day reminder","x":-335,"y":200,"width":250,"height":100,"color":"3"},
-		{"id":"4a564f89aa107f2e","type":"text","text":"---\ncssclasses: cc-card-center\n---\n\nReceive reminder \nfrom calendar","x":-335,"y":400,"width":250,"height":100,"color":"3"},
-		{"type":"text","text":"---\ncssclasses: cc-shape-parallelogram-right\n---\n\nMail statement to customer with amount due","id":"f239dd516e78af75","x":-680,"y":490,"width":200,"height":94,"color":"3"},
-		{"id":"38603637d0a82b31","type":"text","text":"---\ncssclasses: cc-border-none\n---\n\nSet calendar reminder for 15 days","x":-670,"y":680,"width":180,"height":100,"color":"1"},
-		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\n# Accounts Receivable Flowchart","id":"ffb4f333cf63f3c4","x":-792,"y":-450,"width":625,"height":150},
-		{"id":"e18f2f8271d7aff9","type":"text","text":"---\ncssclass: cc-card-center, cc-rotate-card-45\n---\n\n**Invoice Paid?**","x":-88,"y":-140,"width":98,"height":100,"color":"2"},
-		{"type":"text","text":"---\ncssclasses: cc-border-rounded, cc-card-center, cc-card-gradient-0deg\n---\n\n**End**","id":"35c3d06529d74357","x":230,"y":397,"width":220,"height":60,"color":"#d84b4b"},
-		{"type":"text","text":"---\ncssclasses: cc-shape-parallelogram-right, cc-card-center\n---\n\nMail acknowledgment of payment to customer\n","id":"c1efedff03defcff","x":220,"y":240,"width":240,"height":87,"color":"3"},
-		{"id":"9aaaecdb7cff9d42","type":"text","text":"---\ncssclass: cc-card-center, cc-rotate-card-45\n---\n\n**Invoice Paid?**","x":-255,"y":590,"width":90,"height":90,"color":"2"}
+		{"id":"4a564f89aa107f2e","type":"text","text":"---\ncssclasses:\n  - cc-card-center\n---\n\nReceive reminder \nfrom calendar","x":-335,"y":400,"width":250,"height":100,"color":"3"},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-shape-parallelogram-right\n---\n\nMail statement to customer with amount due","id":"f239dd516e78af75","x":-680,"y":490,"width":200,"height":94,"color":"3"},
+		{"id":"38603637d0a82b31","type":"text","text":"---\ncssclasses:\n  - cc-border-none\n---\n\nSet calendar reminder for 15 days","x":-670,"y":680,"width":180,"height":100,"color":"1"},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-border-none\n  - cc-card-transparent\n---\n\n# Accounts Receivable Flowchart","id":"ffb4f333cf63f3c4","x":-792,"y":-450,"width":625,"height":150},
+		{"id":"e18f2f8271d7aff9","type":"text","text":"---\ncssclass: cc-card-center, cc-rotate-card-45\n---\n\n**Invoice Paid?**","x":-107,"y":-140,"width":135,"height":100,"color":"2"},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-border-rounded\n  - cc-card-center\n  - cc-card-gradient-0deg\n---\n\n**End**","id":"35c3d06529d74357","x":230,"y":397,"width":220,"height":60,"color":"#d84b4b"},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-shape-parallelogram-right\n  - cc-card-center\n---\n\nMail acknowledgment of payment to customer\n","id":"c1efedff03defcff","x":220,"y":240,"width":240,"height":87,"color":"3"},
+		{"id":"9aaaecdb7cff9d42","type":"text","text":"---\ncssclass: cc-card-center, cc-rotate-card-45\n---\n\n**Invoice Paid?**","x":-275,"y":590,"width":131,"height":90,"color":"2"}
 	],
 	"edges":[
 		{"id":"443c6843fae799b8","fromNode":"06b749bbe56eeb43","fromSide":"bottom","toNode":"4a564f89aa107f2e","toSide":"top","label":"time passes"},

@@ -1,15 +1,15 @@
 {
 	"nodes":[
-		{"type":"text","text":"---\ncssclasses: cc-border-none, cc-card-transparent\n---\n\nNo border/Transparent","id":"0d00c437c04110b5","x":-153,"y":-460,"width":239,"height":100,"color":"3"},
-		{"type":"text","text":"---\ncssclasses: cc-border-none\n---\n\nNo border\n","id":"a2b7374fe4eeaa07","x":140,"y":-455,"width":241,"height":95,"color":"3"},
-		{"type":"text","text":"---\ncssclasses:  cc-border-top\n---\n\n**Border top**","id":"1fb626324c9fd539","x":-153,"y":-311,"width":250,"height":71,"color":"3"},
-		{"type":"text","text":"---\ncssclasses: cc-border-bottom\n---\n\n**Border bottom**","id":"2ec473a5c7169004","x":140,"y":-311,"width":250,"height":71,"color":"3"},
-		{"type":"text","text":"---\ncssclasses: cc-border-left\n---\n\n**Border left**","id":"9e7c631cf1f8eeb0","x":-153,"y":-200,"width":250,"height":71,"color":"3"},
-		{"type":"text","text":"---\ncssclasses: cc-border-right\n---\n\n**Border right**","id":"49fc3647750ebd95","x":140,"y":-200,"width":250,"height":71,"color":"3"},
-		{"type":"text","text":"---\ncssclasses: cc-border-dotted\n---\n\nDotted","id":"0d8e98abe794a5fb","x":-153,"y":-80,"width":250,"height":90,"color":"3"},
-		{"type":"text","text":"---\ncssclasses:  cc-border-dashed \n---\n\nDashed","id":"934ec271eb3b8556","x":140,"y":-80,"width":250,"height":90,"color":"3"},
-		{"type":"text","text":"---\ncssclasses:  cc-border-double, cc-border-squared\n---\n\nDouble","id":"0ca5b8da7eda19c9","x":-153,"y":60,"width":250,"height":77,"color":"3"},
-		{"type":"text","text":"---\ncssclasses:  cc-border-rounded, cc-card-center\n---\n\nRounded Borders \n","id":"78e23b5a06e9c461","x":131,"y":60,"width":250,"height":60,"color":"3"},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-border-none\n  - cc-card-transparent\n---\n\nNo border/Transparent","id":"0d00c437c04110b5","x":-153,"y":-460,"width":239,"height":100,"color":"3"},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-border-none\n---\n\nNo border\n","id":"a2b7374fe4eeaa07","x":140,"y":-455,"width":241,"height":95,"color":"3"},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-border-top\n---\n\n**Border top**","id":"1fb626324c9fd539","x":-153,"y":-311,"width":250,"height":71,"color":"3"},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-border-bottom\n---\n\n**Border bottom**","id":"2ec473a5c7169004","x":140,"y":-311,"width":250,"height":71,"color":"3"},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-border-left\n---\n\n**Border left**","id":"9e7c631cf1f8eeb0","x":-153,"y":-200,"width":250,"height":71,"color":"3"},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-border-right\n---\n\n**Border right**","id":"49fc3647750ebd95","x":140,"y":-200,"width":250,"height":71,"color":"3"},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-border-dotted\n---\n\nDotted","id":"0d8e98abe794a5fb","x":-153,"y":-80,"width":250,"height":90,"color":"3"},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-border-dashed\n---\n\nDashed","id":"934ec271eb3b8556","x":140,"y":-80,"width":250,"height":90,"color":"3"},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-border-double\n  - cc-border-squared\n---\n\nDouble","id":"0ca5b8da7eda19c9","x":-153,"y":60,"width":250,"height":77,"color":"3"},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-border-rounded\n  - cc-card-center\n---\n\nRounded Borders \n","id":"78e23b5a06e9c461","x":131,"y":60,"width":250,"height":60,"color":"3"},
 		{"id":"ef968d5e7c5c99ed","type":"text","text":"![[02 Stencil Index]]\n\n","x":-28,"y":200,"width":340,"height":500}
 	],
 	"edges":[]
