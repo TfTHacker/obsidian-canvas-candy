@@ -1,6 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "propertiesInDocument": "hidden",
+  "propertiesInDocument": "source",
   "showInlineTitle": false,
   "defaultViewMode": "preview"
 }

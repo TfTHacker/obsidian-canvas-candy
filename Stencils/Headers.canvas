@@ -1,12 +1,12 @@
 {
 	"nodes":[
 		{"type":"text","text":">[!cc-header] header\n\n**Callout:**\n```\n>[!cc-header]\n```","id":"40b9c46a40e57d9a","x":-740,"y":-1200,"width":360,"height":260,"color":"4"},
-		{"type":"text","text":"---\ncssclasses: cc-card-nocolor\n---\n\n>[!cc-header] header\n\n**Callout:**\n```\n>[!cc-header]\n```\n\n**cssclasses**\n- cc-card-nocolor","id":"73d0cfc0edf44087","x":-340,"y":-1200,"width":360,"height":260,"color":"4"},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-card-nocolor\n---\n\n>[!cc-header] header\n\n**Callout:**\n```\n>[!cc-header]\n```\n\n**cssclasses**\n- cc-card-nocolor","id":"73d0cfc0edf44087","x":-340,"y":-1200,"width":360,"height":260,"color":"4"},
 		{"type":"text","text":">[!cc-header-noborder] header\n\n**Callout:**\n```\n>[!cc-header-noborder]\n```\n","id":"6256cd654c6833b6","x":-740,"y":-880,"width":360,"height":260,"color":"4"},
-		{"type":"text","text":"---\ncssclasses: cc-border-none\n---\n\n>[!cc-header-noborder] header\n\n**Callout:**\n```\n>[!cc-header-noborder] header\n```\n\n**cssclasses**\n- cc-border-none","id":"f290f933cdf54a38","x":-340,"y":-880,"width":360,"height":260,"color":"4"},
-		{"type":"text","text":"---\ncssclasses: cc-card-transparent\n---\n\n>[!cc-header] header\n\n**Callouts:**\n```\n>[!cc-header]\n```\n\n**cssclasses**\n- cc-card-transparent","id":"edfbb9b03060c00e","x":-740,"y":-560,"width":360,"height":260,"color":"4"},
-		{"type":"text","text":"---\ncssclasses: cc-card-nocolor, cc-border-none\n---\n\n>[!cc-header] header\n\n**Callouts:**\n```\n>[!cc-header]\n```\n\n**cssclasses**\n- cc-card-nocolor\n- cc-border-none","id":"f0d787caccdf6cae","x":-340,"y":-560,"width":360,"height":260,"color":"4"},
-		{"type":"text","text":"---\ncssclasses: cc-card-nocolor, cc-border-none\n---\n\n>[!cc-header-noborder] header\n\n**Callouts:**\n```\n>[!cc-header-noborder]\n```\n\n**cssclasses**\n- cc-card-nocolor\n- cc-border-none","id":"6b1a80f69653324f","x":-740,"y":-240,"width":360,"height":260,"color":"4"},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-border-none\n---\n\n>[!cc-header-noborder] header\n\n**Callout:**\n```\n>[!cc-header-noborder] header\n```\n\n**cssclasses**\n- cc-border-none","id":"f290f933cdf54a38","x":-340,"y":-880,"width":360,"height":260,"color":"4"},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-card-transparent\n---\n\n>[!cc-header] header\n\n**Callouts:**\n```\n>[!cc-header]\n```\n\n**cssclasses**\n- cc-card-transparent","id":"edfbb9b03060c00e","x":-740,"y":-560,"width":360,"height":260,"color":"4"},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-card-nocolor\n  - cc-border-none\n---\n\n>[!cc-header] header\n\n**Callouts:**\n```\n>[!cc-header]\n```\n\n**cssclasses**\n- cc-card-nocolor\n- cc-border-none","id":"f0d787caccdf6cae","x":-340,"y":-560,"width":360,"height":260,"color":"4"},
+		{"type":"text","text":"---\ncssclasses:\n  - cc-card-nocolor\n  - cc-border-none\n---\n\n>[!cc-header-noborder] header\n\n**Callouts:**\n```\n>[!cc-header-noborder]\n```\n\n**cssclasses**\n- cc-card-nocolor\n- cc-border-none","id":"6b1a80f69653324f","x":-740,"y":-240,"width":360,"height":260,"color":"4"},
 		{"type":"text","text":">[!cc-header] header \n>- with additional content\n\n**Callouts:**\n```\n>[!cc-header]\n```","id":"c0d2791b0899a1ad","x":-340,"y":-240,"width":360,"height":260,"color":"4"},
 		{"id":"636dadaecf5c2742","type":"text","text":"![[02 Stencil Index]]\n\n","x":-720,"y":80,"width":340,"height":500}
 	],
